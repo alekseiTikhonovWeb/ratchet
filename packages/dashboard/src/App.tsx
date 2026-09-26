@@ -43,7 +43,7 @@ export default function App() {
         <div className="flex items-center gap-2">
           <span className="inline-block h-3 w-3 rounded-[3px] bg-emerald-500" />
           <h1 className="text-lg font-semibold tracking-tight text-slate-100">Ratchet</h1>
-          <span className="text-sm text-slate-500">JS → TS, one safe batch at a time</span>
+          <span className="text-sm text-slate-500">JS → TS Migrator</span>
         </div>
         <div className="font-mono text-xs text-slate-400">
           {run.repo} · {st.files} files · {st.layers} layers · {st.edges} imports{st.cycleFiles ? ` · ${st.cycleFiles} in cycles` : ""}

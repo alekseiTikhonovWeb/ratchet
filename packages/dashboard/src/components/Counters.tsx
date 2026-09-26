@@ -4,7 +4,7 @@ import type { View } from "../state";
 export function Counters({ view }: { view: View }) {
   return (
     <section className="card min-w-0">
-      <h2 className="mb-3 text-xs uppercase tracking-wide text-slate-400">Ratchet — can only go down</h2>
+      <h2 className="mb-3 text-xs uppercase tracking-wide text-slate-400">Ratchet</h2>
       <div className="grid grid-cols-2 gap-3">
         <Kpi label=".js / .jsx files" series={view.js} color="#22c55e" fromLabel="baseline" upIsBad />
         <Kpi label="any (counted, not banned)" series={view.any} color="#eab308" fromLabel="ceiling" />
