@@ -43,18 +43,21 @@ export function LayerMap({ run, view }: { run: RunLog; view: View }) {
         )}
       </div>
 
-      <footer className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 border-t border-slate-800 pt-2 text-[11px] text-slate-400">
-        {ORDER.map((k) => (
-          <span key={k} className="flex items-center gap-1.5"><i className="inline-block h-2.5 w-2.5 rounded-[2px]" style={{ background: STATE_COLOR[k] }} />{STATE_LABEL[k]}</span>
-        ))}
-        <span className="ml-auto font-mono text-slate-500">
+      <footer className="mt-3 border-t border-slate-800 pt-2 text-[11px] text-slate-400">
+        <div className="flex items-center gap-x-4 overflow-hidden whitespace-nowrap">
+          {ORDER.map((k) => (
+            <span key={k} className="flex shrink-0 items-center gap-1.5"><i className="inline-block h-2.5 w-2.5 rounded-[2px]" style={{ background: STATE_COLOR[k] }} />{STATE_LABEL[k]}</span>
+          ))}
+        </div>
+        <div className="mt-1 h-5 truncate font-mono leading-5 text-slate-500" title={hover ?? undefined}>
           {hover ? (
             <>
-              {hover} · {info?.lines ?? "?"} lines · {info?.imports.length ?? 0} imports
-              {hb ? ` · ${hb.id} ${hb.status}` : ""}
+              <span className="text-slate-300">{hover}</span>
+              <span> · {info?.lines ?? "?"} lines · {info?.imports.length ?? 0} imports</span>
+              {hb && <span> · {hb.id} <span style={{ color: STATE_COLOR[view.stateOf(hover)] }}>{hb.status}</span></span>}
             </>
           ) : "hover a file"}
-        </span>
+        </div>
       </footer>
     </section>
   );
@@ -66,7 +69,7 @@ function Block({ file, lines, state, onHover }: { file: string; lines: number; s
     <div
       className="h-[11px] rounded-[2px] transition-colors duration-500 hover:ring-2 hover:ring-white/70"
       style={{ width: w, background: STATE_COLOR[state] }}
-      title={`${file} · ${lines} lines · ${STATE_LABEL[state]}`}
+      aria-label={`${file} · ${lines} lines · ${STATE_LABEL[state]}`}
       onMouseEnter={() => onHover(file)}
       onMouseLeave={() => onHover(null)}
     />
