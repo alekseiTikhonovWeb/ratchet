@@ -1,0 +1,3905 @@
+{
+  "version": 1,
+  "repo": "github.com/alekseiTikhonovWeb/mirador",
+  "src": "src",
+  "startedAt": "2026-09-26T19:33:06.670Z",
+  "updatedAt": "2026-09-26T21:01:44.225Z",
+  "graph": {
+    "layers": [
+      [
+        "src/components/AudioViewer.tsx",
+        "src/components/CollapsibleSection.tsx",
+        "src/components/CompanionWindowSection.tsx",
+        "src/components/ErrorDialog.tsx",
+        "src/components/IIIFIFrameCommunication.tsx",
+        "src/components/LanguageSettings.tsx",
+        "src/components/ManifestForm.tsx",
+        "src/components/ManifestListItemError.tsx",
+        "src/components/NestedMenu.tsx",
+        "src/components/NewBrowserWindow.tsx",
+        "src/components/ScrollIndicatedDialogContent.tsx",
+        "src/components/SelectCollection.tsx",
+        "src/components/SidebarIndexItem.tsx",
+        "src/components/VideoViewer.tsx",
+        "src/components/WindowTopBarTitle.tsx",
+        "src/components/WorkspaceAddButton.tsx",
+        "src/components/WorkspaceDialog.tsx",
+        "src/components/icons/BookViewIcon.tsx",
+        "src/components/icons/CanvasIndexIcon.tsx",
+        "src/components/icons/GalleryViewIcon.tsx",
+        "src/components/icons/MiradorIcon.tsx",
+        "src/components/icons/RestoreZoomIcon.tsx",
+        "src/components/icons/ThumbnailNavigationBottomIcon.tsx",
+        "src/components/icons/ThumbnailNavigationRightIcon.tsx",
+        "src/components/icons/WindowMaxIcon.tsx",
+        "src/components/icons/WindowMinIcon.tsx",
+        "src/components/icons/WindowOptionsIcon.tsx",
+        "src/components/icons/WorkspaceTypeElasticIcon.tsx",
+        "src/components/icons/WorkspaceTypeMosaicIcon.tsx",
+        "src/config/settings.ts",
+        "src/contexts/FailedImageContext.ts",
+        "src/contexts/FullScreenContext.ts",
+        "src/contexts/LocaleContext.ts",
+        "src/contexts/OpenSeadragonViewerContext.ts",
+        "src/contexts/WorkspaceContext.ts",
+        "src/extend/PluginContext.ts",
+        "src/extend/pluginValidation.ts",
+        "src/i18n.ts",
+        "src/lib/AnnotationItem.ts",
+        "src/lib/AnnotationResource.ts",
+        "src/lib/CanvasGroupings.ts",
+        "src/lib/FullScreenHandle.tsx",
+        "src/lib/MiradorManifest.ts",
+        "src/lib/MosaicLayout.ts",
+        "src/lib/OpenSeadragonCanvasOverlay.ts",
+        "src/lib/TruncatedHit.ts",
+        "src/lib/asArray.ts",
+        "src/lib/htmlRules.ts",
+        "src/lib/iiif.js",
+        "src/lib/readImageMetadata.js",
+        "src/lib/svgShapesToPath.js",
+        "src/plugins/OSDReferences.js",
+        "src/state/actions/action-types.js",
+        "src/state/reducers/utils.js",
+        "src/styles/react-mosaic-component.js"
+      ],
+      [
+        "src/components/AccessTokenSender.jsx",
+        "src/components/Branding.jsx",
+        "src/components/ChangeThemeDialog.jsx",
+        "src/components/IIIFDropTarget.jsx",
+        "src/components/ImageFailureMessage.jsx",
+        "src/components/ImageWithFallback.jsx",
+        "src/components/MiradorMenuButton.jsx",
+        "src/components/OpenSeadragonComponent.jsx",
+        "src/components/OpenSeadragonTileSource.jsx",
+        "src/components/WindowList.jsx",
+        "src/components/WindowThumbnailSettings.jsx",
+        "src/components/WindowViewSettings.jsx",
+        "src/components/WorkspaceExport.jsx",
+        "src/components/icons/index.js",
+        "src/config/css-ns.js",
+        "src/containers/CollapsibleSection.js",
+        "src/containers/ScrollIndicatedDialogContent.js",
+        "src/contexts/FailedImageProvider.jsx",
+        "src/contexts/index.js",
+        "src/extend/pluginPreprocessing.js",
+        "src/extend/usePlugins.js",
+        "src/extend/withPlugins.jsx",
+        "src/lib/AnnotationList.js",
+        "src/lib/AnnotationPage.js",
+        "src/lib/CanvasAnnotationDisplay.js",
+        "src/lib/CanvasWorld.js",
+        "src/lib/MiradorCanvas.js",
+        "src/plugins/index.js",
+        "src/state/actions/annotation.js",
+        "src/state/actions/auth.js",
+        "src/state/actions/catalog.js",
+        "src/state/actions/config.js",
+        "src/state/actions/elasticLayout.js",
+        "src/state/actions/errors.js",
+        "src/state/actions/infoResponse.js",
+        "src/state/actions/layers.js",
+        "src/state/actions/manifest.js",
+        "src/state/actions/search.js",
+        "src/state/actions/workspace.js",
+        "src/state/reducers/accessTokens.js",
+        "src/state/reducers/annotations.js",
+        "src/state/reducers/auth.js",
+        "src/state/reducers/catalog.js",
+        "src/state/reducers/companionWindows.js",
+        "src/state/reducers/config.js",
+        "src/state/reducers/elasticLayout.js",
+        "src/state/reducers/errors.js",
+        "src/state/reducers/infoResponses.js",
+        "src/state/reducers/layers.js",
+        "src/state/reducers/manifests.js",
+        "src/state/reducers/search.js",
+        "src/state/reducers/viewers.js",
+        "src/state/reducers/windows.js",
+        "src/state/reducers/workspace.js",
+        "src/state/selectors/utils.js"
+      ],
+      [
+        "src/components/AnnotationsOverlay.jsx",
+        "src/components/AppProviders.jsx",
+        "src/components/CollectionInfo.jsx",
+        "src/components/PluginHook.jsx",
+        "src/components/SanitizedHtml.jsx",
+        "src/components/ScrollTo.jsx",
+        "src/components/ViewerInfo.jsx",
+        "src/components/WindowSideBarButtons.jsx",
+        "src/components/WorkspaceImport.jsx",
+        "src/components/WorkspaceSelectionDialog.jsx",
+        "src/config/index.js",
+        "src/containers/Branding.js",
+        "src/containers/MiradorMenuButton.js",
+        "src/containers/SidebarIndexItem.js",
+        "src/lib/AnnotationFactory.js",
+        "src/lib/ThumbnailFactory.js",
+        "src/state/actions/window.js",
+        "src/state/reducers/index.js",
+        "src/state/selectors/getters.js",
+        "src/state/selectors/wrappers.js"
+      ],
+      [
+        "src/components/AnnotationSettings.jsx",
+        "src/components/BackgroundPluginArea.jsx",
+        "src/components/ErrorContent.jsx",
+        "src/components/FullScreenButton.jsx",
+        "src/components/ManifestRelatedLinks.jsx",
+        "src/components/MinimalWindow.jsx",
+        "src/components/SearchPanelNavigation.jsx",
+        "src/components/SidebarIndexTableOfContents.jsx",
+        "src/components/ViewerNavigation.jsx",
+        "src/components/WindowTopBarPluginArea.jsx",
+        "src/components/WindowTopBarPluginMenu.jsx",
+        "src/components/ZoomControls.jsx",
+        "src/containers/SanitizedHtml.js",
+        "src/hooks/useCanvasWorldService.js",
+        "src/state/reducers/rootReducer.js",
+        "src/state/selectors/companionWindows.js",
+        "src/state/selectors/config.js",
+        "src/state/selectors/workspace.js"
+      ],
+      [
+        "src/components/CanvasAnnotations.jsx",
+        "src/components/CompanionWindow.jsx",
+        "src/components/LabelValueMetadata.jsx",
+        "src/components/LocalePicker.jsx",
+        "src/components/SearchHit.jsx",
+        "src/components/WindowAuthenticationBar.jsx",
+        "src/containers/BackgroundPluginArea.js",
+        "src/containers/FullScreenButton.js",
+        "src/containers/WindowTopBarPluginArea.js",
+        "src/containers/WindowTopBarPluginMenu.js",
+        "src/state/selectors/thumbnails.js"
+      ],
+      [
+        "src/containers/LocalePicker.js",
+        "src/containers/WindowAuthenticationBar.js",
+        "src/hooks/useThumbnailService.js",
+        "src/state/selectors/manifests.js"
+      ],
+      [
+        "src/components/IIIFAuthentication.jsx",
+        "src/hooks/index.js",
+        "src/state/selectors/sequences.js"
+      ],
+      [
+        "src/state/selectors/windows.js"
+      ],
+      [
+        "src/state/selectors/canvases.js"
+      ],
+      [
+        "src/state/selectors/annotations.js",
+        "src/state/selectors/auth.js",
+        "src/state/selectors/layers.js",
+        "src/state/selectors/ranges.js",
+        "src/state/selectors/searches.js"
+      ],
+      [
+        "src/state/selectors/viewer.js"
+      ],
+      [
+        "src/state/selectors/index.js"
+      ],
+      [
+        "src/components/IIIFResourceLabel.jsx",
+        "src/containers/AppProviders.js",
+        "src/containers/AudioViewer.js",
+        "src/containers/ErrorContent.js",
+        "src/containers/LabelValueMetadata.js",
+        "src/containers/ManifestRelatedLinks.js",
+        "src/containers/VideoViewer.js",
+        "src/containers/ViewerInfo.js",
+        "src/containers/WindowTopBarTitle.js",
+        "src/containers/WorkspaceExport.js",
+        "src/state/actions/canvas.js",
+        "src/state/actions/companionWindow.js"
+      ],
+      [
+        "src/components/CanvasInfo.jsx",
+        "src/components/IIIFThumbnail.jsx",
+        "src/components/ManifestInfo.jsx",
+        "src/state/actions/index.js"
+      ],
+      [
+        "src/containers/AnnotationSettings.js",
+        "src/containers/AnnotationsOverlay.js",
+        "src/containers/CanvasAnnotations.js",
+        "src/containers/CanvasInfo.js",
+        "src/containers/ChangeThemeDialog.js",
+        "src/containers/CollectionInfo.js",
+        "src/containers/CompanionWindow.js",
+        "src/containers/ErrorDialog.js",
+        "src/containers/IIIFAuthentication.js",
+        "src/containers/IIIFThumbnail.js",
+        "src/containers/LanguageSettings.js",
+        "src/containers/ManifestForm.js",
+        "src/containers/ManifestInfo.js",
+        "src/containers/ManifestListItemError.js",
+        "src/containers/MinimalWindow.js",
+        "src/containers/SearchHit.js",
+        "src/containers/SearchPanelNavigation.js",
+        "src/containers/SelectCollection.js",
+        "src/containers/SidebarIndexTableOfContents.js",
+        "src/containers/ViewerNavigation.js",
+        "src/containers/WindowList.js",
+        "src/containers/WindowSideBarButtons.js",
+        "src/containers/WindowThumbnailSettings.js",
+        "src/containers/WindowViewSettings.js",
+        "src/containers/WorkspaceAddButton.js",
+        "src/containers/WorkspaceImport.js",
+        "src/containers/WorkspaceSelectionDialog.js",
+        "src/containers/ZoomControls.js",
+        "src/state/sagas/annotations.js",
+        "src/state/sagas/iiif.js"
+      ],
+      [
+        "src/components/AttributionPanel.jsx",
+        "src/components/CanvasLayers.jsx",
+        "src/components/CollectionDialog.jsx",
+        "src/components/CustomPanel.jsx",
+        "src/components/GalleryViewThumbnail.jsx",
+        "src/components/ManifestListItem.jsx",
+        "src/components/MosaicRenderPreview.jsx",
+        "src/components/OpenSeadragonViewer.jsx",
+        "src/components/SearchPanelControls.jsx",
+        "src/components/SearchResults.jsx",
+        "src/components/SidebarIndexThumbnail.jsx",
+        "src/components/ThumbnailCanvasGrouping.jsx",
+        "src/components/WindowCanvasNavigationControls.jsx",
+        "src/components/WindowListButton.jsx",
+        "src/components/WindowSideBar.jsx",
+        "src/components/WindowSideBarAnnotationsPanel.jsx",
+        "src/components/WindowSideBarCollectionPanel.jsx",
+        "src/components/WindowSideBarInfoPanel.jsx",
+        "src/components/WindowTopMenu.jsx",
+        "src/components/WorkspaceMenu.jsx",
+        "src/components/WorkspaceOptionsMenu.jsx",
+        "src/state/sagas/auth.js",
+        "src/state/sagas/windows.js"
+      ],
+      [
+        "src/containers/AttributionPanel.js",
+        "src/containers/CanvasLayers.js",
+        "src/containers/CollectionDialog.js",
+        "src/containers/CustomPanel.js",
+        "src/containers/GalleryViewThumbnail.js",
+        "src/containers/ManifestListItem.js",
+        "src/containers/MosaicRenderPreview.js",
+        "src/containers/OpenSeadragonViewer.js",
+        "src/containers/SearchPanelControls.js",
+        "src/containers/SearchResults.js",
+        "src/containers/SidebarIndexThumbnail.js",
+        "src/containers/ThumbnailCanvasGrouping.js",
+        "src/containers/WindowCanvasNavigationControls.js",
+        "src/containers/WindowListButton.js",
+        "src/containers/WindowSideBar.js",
+        "src/containers/WindowSideBarAnnotationsPanel.js",
+        "src/containers/WindowSideBarCollectionPanel.js",
+        "src/containers/WindowSideBarInfoPanel.js",
+        "src/containers/WindowTopMenu.js",
+        "src/containers/WorkspaceMenu.js",
+        "src/containers/WorkspaceOptionsMenu.js",
+        "src/state/sagas/app.js"
+      ],
+      [
+        "src/components/GalleryView.jsx",
+        "src/components/LayersPanel.jsx",
+        "src/components/SearchPanel.jsx",
+        "src/components/SidebarIndexList.jsx",
+        "src/components/TextViewer.jsx",
+        "src/components/ThumbnailNavigation.jsx",
+        "src/components/WindowTopMenuButton.jsx",
+        "src/components/WindowViewer.jsx",
+        "src/components/WorkspaceAdd.jsx",
+        "src/components/WorkspaceMenuButton.jsx",
+        "src/components/WorkspaceOptionsButton.jsx",
+        "src/state/sagas/index.js"
+      ],
+      [
+        "src/containers/GalleryView.js",
+        "src/containers/LayersPanel.js",
+        "src/containers/SearchPanel.js",
+        "src/containers/SidebarIndexList.js",
+        "src/containers/TextViewer.js",
+        "src/containers/ThumbnailNavigation.js",
+        "src/containers/WindowTopMenuButton.js",
+        "src/containers/WindowViewer.js",
+        "src/containers/WorkspaceAdd.js",
+        "src/containers/WorkspaceMenuButton.js",
+        "src/containers/WorkspaceOptionsButton.js",
+        "src/state/createStore.js"
+      ],
+      [
+        "src/components/WindowSideBarCanvasPanel.jsx",
+        "src/components/WindowTopBar.jsx",
+        "src/components/WorkspaceControlPanelButtons.jsx",
+        "src/state/createPluggableStore.js"
+      ],
+      [
+        "src/containers/WindowSideBarCanvasPanel.js",
+        "src/containers/WindowTopBar.js",
+        "src/containers/WorkspaceControlPanelButtons.js",
+        "src/state/index.js"
+      ],
+      [
+        "src/components/WorkspaceControlPanel.jsx",
+        "src/lib/CompanionWindowRegistry.js"
+      ],
+      [
+        "src/components/CompanionWindowFactory.jsx",
+        "src/containers/WorkspaceControlPanel.js",
+        "src/extend/pluginMapping.js"
+      ],
+      [
+        "src/containers/CompanionWindowFactory.js",
+        "src/extend/PluginProvider.jsx"
+      ],
+      [
+        "src/components/CompanionArea.jsx",
+        "src/extend/index.js"
+      ],
+      [
+        "src/containers/CompanionArea.js"
+      ],
+      [
+        "src/components/PrimaryWindow.jsx"
+      ],
+      [
+        "src/containers/PrimaryWindow.js"
+      ],
+      [
+        "src/components/Window.jsx"
+      ],
+      [
+        "src/containers/Window.js"
+      ],
+      [
+        "src/components/WorkspaceElasticWindow.jsx",
+        "src/components/WorkspaceMosaic.jsx"
+      ],
+      [
+        "src/containers/WorkspaceElasticWindow.js",
+        "src/containers/WorkspaceMosaic.js"
+      ],
+      [
+        "src/components/WorkspaceElastic.jsx"
+      ],
+      [
+        "src/containers/WorkspaceElastic.js"
+      ],
+      [
+        "src/components/Workspace.jsx"
+      ],
+      [
+        "src/containers/Workspace.js"
+      ],
+      [
+        "src/components/WorkspaceArea.jsx"
+      ],
+      [
+        "src/containers/WorkspaceArea.js"
+      ],
+      [
+        "src/components/App.jsx",
+        "src/containers/index.js"
+      ],
+      [
+        "src/components/index.js",
+        "src/lib/MiradorViewer.jsx"
+      ],
+      [
+        "src/init.js",
+        "src/lib/index.js"
+      ],
+      [
+        "src/index.js"
+      ]
+    ],
+    "cycles": [],
+    "files": {
+      "src/components/AccessTokenSender.jsx": {
+        "lines": 35,
+        "imports": [
+          "src/components/IIIFIFrameCommunication.tsx"
+        ]
+      },
+      "src/components/AnnotationSettings.jsx": {
+        "lines": 32,
+        "imports": [
+          "src/containers/MiradorMenuButton.js"
+        ]
+      },
+      "src/components/AnnotationsOverlay.jsx": {
+        "lines": 329,
+        "imports": [
+          "src/lib/CanvasAnnotationDisplay.js",
+          "src/lib/CanvasWorld.js",
+          "src/lib/OpenSeadragonCanvasOverlay.ts",
+          "src/lib/svgShapesToPath.js"
+        ]
+      },
+      "src/components/App.jsx": {
+        "lines": 35,
+        "imports": [
+          "src/containers/AppProviders.js",
+          "src/containers/WorkspaceArea.js",
+          "src/contexts/WorkspaceContext.ts",
+          "src/extend/PluginProvider.jsx"
+        ]
+      },
+      "src/components/AppProviders.jsx": {
+        "lines": 130,
+        "imports": [
+          "src/contexts/FailedImageProvider.jsx",
+          "src/contexts/FullScreenContext.ts",
+          "src/contexts/LocaleContext.ts",
+          "src/i18n.ts",
+          "src/lib/FullScreenHandle.tsx"
+        ]
+      },
+      "src/components/AttributionPanel.jsx": {
+        "lines": 79,
+        "imports": [
+          "src/components/CompanionWindowSection.tsx",
+          "src/components/ImageWithFallback.jsx",
+          "src/components/PluginHook.jsx",
+          "src/config/css-ns.js",
+          "src/containers/CompanionWindow.js",
+          "src/containers/LabelValueMetadata.js"
+        ]
+      },
+      "src/components/AudioViewer.tsx": {
+        "lines": 46,
+        "imports": []
+      },
+      "src/components/BackgroundPluginArea.jsx": {
+        "lines": 10,
+        "imports": [
+          "src/components/PluginHook.jsx",
+          "src/config/css-ns.js"
+        ]
+      },
+      "src/components/Branding.jsx": {
+        "lines": 34,
+        "imports": [
+          "src/components/icons/MiradorIcon.tsx"
+        ]
+      },
+      "src/components/CanvasAnnotations.jsx": {
+        "lines": 126,
+        "imports": [
+          "src/components/ScrollTo.jsx",
+          "src/containers/SanitizedHtml.js"
+        ]
+      },
+      "src/components/CanvasInfo.jsx": {
+        "lines": 47,
+        "imports": [
+          "src/components/PluginHook.jsx",
+          "src/containers/CollapsibleSection.js",
+          "src/containers/LabelValueMetadata.js",
+          "src/containers/SanitizedHtml.js"
+        ]
+      },
+      "src/components/CanvasLayers.jsx": {
+        "lines": 368,
+        "imports": [
+          "src/components/IIIFResourceLabel.jsx",
+          "src/containers/IIIFThumbnail.js",
+          "src/containers/MiradorMenuButton.js"
+        ]
+      },
+      "src/components/ChangeThemeDialog.jsx": {
+        "lines": 66,
+        "imports": [
+          "src/components/WorkspaceDialog.tsx"
+        ]
+      },
+      "src/components/CollapsibleSection.tsx": {
+        "lines": 59,
+        "imports": []
+      },
+      "src/components/CollectionDialog.jsx": {
+        "lines": 237,
+        "imports": [
+          "src/components/IIIFResourceLabel.jsx",
+          "src/containers/CollapsibleSection.js",
+          "src/containers/LabelValueMetadata.js",
+          "src/containers/ManifestInfo.js",
+          "src/containers/ScrollIndicatedDialogContent.js",
+          "src/contexts/WorkspaceContext.ts",
+          "src/lib/asArray.ts"
+        ]
+      },
+      "src/components/CollectionInfo.jsx": {
+        "lines": 49,
+        "imports": [
+          "src/containers/CollapsibleSection.js"
+        ]
+      },
+      "src/components/CompanionArea.jsx": {
+        "lines": 141,
+        "imports": [
+          "src/config/css-ns.js",
+          "src/containers/CompanionWindowFactory.js",
+          "src/containers/MiradorMenuButton.js"
+        ]
+      },
+      "src/components/CompanionWindow.jsx": {
+        "lines": 229,
+        "imports": [
+          "src/config/css-ns.js",
+          "src/containers/MiradorMenuButton.js",
+          "src/contexts/LocaleContext.ts",
+          "src/state/selectors/companionWindows.js"
+        ]
+      },
+      "src/components/CompanionWindowFactory.jsx": {
+        "lines": 39,
+        "imports": [
+          "src/containers/CompanionWindow.js",
+          "src/containers/ErrorContent.js",
+          "src/lib/CompanionWindowRegistry.js"
+        ]
+      },
+      "src/components/CompanionWindowSection.tsx": {
+        "lines": 12,
+        "imports": []
+      },
+      "src/components/CustomPanel.jsx": {
+        "lines": 23,
+        "imports": [
+          "src/containers/CompanionWindow.js"
+        ]
+      },
+      "src/components/ErrorContent.jsx": {
+        "lines": 66,
+        "imports": [
+          "src/components/PluginHook.jsx"
+        ]
+      },
+      "src/components/ErrorDialog.tsx": {
+        "lines": 58,
+        "imports": []
+      },
+      "src/components/FullScreenButton.jsx": {
+        "lines": 48,
+        "imports": [
+          "src/containers/MiradorMenuButton.js",
+          "src/contexts/FullScreenContext.ts"
+        ]
+      },
+      "src/components/GalleryView.jsx": {
+        "lines": 46,
+        "imports": [
+          "src/config/css-ns.js",
+          "src/containers/GalleryViewThumbnail.js"
+        ]
+      },
+      "src/components/GalleryViewThumbnail.jsx": {
+        "lines": 161,
+        "imports": [
+          "src/containers/IIIFThumbnail.js"
+        ]
+      },
+      "src/components/IIIFAuthentication.jsx": {
+        "lines": 145,
+        "imports": [
+          "src/components/AccessTokenSender.jsx",
+          "src/components/NewBrowserWindow.tsx",
+          "src/containers/WindowAuthenticationBar.js"
+        ]
+      },
+      "src/components/IIIFDropTarget.jsx": {
+        "lines": 169,
+        "imports": [
+          "src/lib/readImageMetadata.js"
+        ]
+      },
+      "src/components/IIIFIFrameCommunication.tsx": {
+        "lines": 51,
+        "imports": []
+      },
+      "src/components/IIIFResourceLabel.jsx": {
+        "lines": 27,
+        "imports": [
+          "src/contexts/LocaleContext.ts",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/components/IIIFThumbnail.jsx": {
+        "lines": 215,
+        "imports": [
+          "src/components/IIIFResourceLabel.jsx",
+          "src/contexts/FailedImageContext.ts",
+          "src/hooks/index.js"
+        ]
+      },
+      "src/components/ImageFailureMessage.jsx": {
+        "lines": 43,
+        "imports": [
+          "src/contexts/FailedImageContext.ts"
+        ]
+      },
+      "src/components/ImageWithFallback.jsx": {
+        "lines": 42,
+        "imports": [
+          "src/contexts/FailedImageContext.ts"
+        ]
+      },
+      "src/components/LabelValueMetadata.jsx": {
+        "lines": 47,
+        "imports": [
+          "src/config/css-ns.js",
+          "src/containers/SanitizedHtml.js"
+        ]
+      },
+      "src/components/LanguageSettings.tsx": {
+        "lines": 58,
+        "imports": []
+      },
+      "src/components/LayersPanel.jsx": {
+        "lines": 25,
+        "imports": [
+          "src/containers/CanvasLayers.js",
+          "src/containers/CompanionWindow.js"
+        ]
+      },
+      "src/components/LocalePicker.jsx": {
+        "lines": 70,
+        "imports": [
+          "src/state/selectors/config.js"
+        ]
+      },
+      "src/components/ManifestForm.tsx": {
+        "lines": 87,
+        "imports": []
+      },
+      "src/components/ManifestInfo.jsx": {
+        "lines": 56,
+        "imports": [
+          "src/components/PluginHook.jsx",
+          "src/config/css-ns.js",
+          "src/containers/CollapsibleSection.js",
+          "src/containers/LabelValueMetadata.js",
+          "src/containers/SanitizedHtml.js"
+        ]
+      },
+      "src/components/ManifestListItem.jsx": {
+        "lines": 224,
+        "imports": [
+          "src/components/ImageWithFallback.jsx",
+          "src/config/css-ns.js",
+          "src/containers/ManifestListItemError.js"
+        ]
+      },
+      "src/components/ManifestListItemError.tsx": {
+        "lines": 60,
+        "imports": []
+      },
+      "src/components/ManifestRelatedLinks.jsx": {
+        "lines": 161,
+        "imports": [
+          "src/components/PluginHook.jsx",
+          "src/config/css-ns.js",
+          "src/containers/CollapsibleSection.js"
+        ]
+      },
+      "src/components/MinimalWindow.jsx": {
+        "lines": 105,
+        "imports": [
+          "src/config/css-ns.js",
+          "src/containers/MiradorMenuButton.js"
+        ]
+      },
+      "src/components/MiradorMenuButton.jsx": {
+        "lines": 72,
+        "imports": [
+          "src/contexts/WorkspaceContext.ts"
+        ]
+      },
+      "src/components/MosaicRenderPreview.jsx": {
+        "lines": 17,
+        "imports": [
+          "src/containers/MinimalWindow.js"
+        ]
+      },
+      "src/components/NestedMenu.tsx": {
+        "lines": 50,
+        "imports": []
+      },
+      "src/components/NewBrowserWindow.tsx": {
+        "lines": 43,
+        "imports": []
+      },
+      "src/components/OpenSeadragonComponent.jsx": {
+        "lines": 270,
+        "imports": [
+          "src/contexts/OpenSeadragonViewerContext.ts"
+        ]
+      },
+      "src/components/OpenSeadragonTileSource.jsx": {
+        "lines": 106,
+        "imports": [
+          "src/contexts/FailedImageContext.ts",
+          "src/contexts/OpenSeadragonViewerContext.ts"
+        ]
+      },
+      "src/components/OpenSeadragonViewer.jsx": {
+        "lines": 162,
+        "imports": [
+          "src/components/ImageFailureMessage.jsx",
+          "src/components/OpenSeadragonComponent.jsx",
+          "src/components/OpenSeadragonTileSource.jsx",
+          "src/components/PluginHook.jsx",
+          "src/config/css-ns.js",
+          "src/containers/AnnotationsOverlay.js",
+          "src/lib/CanvasWorld.js",
+          "src/plugins/OSDReferences.js"
+        ]
+      },
+      "src/components/PluginHook.jsx": {
+        "lines": 28,
+        "imports": [
+          "src/extend/usePlugins.js"
+        ]
+      },
+      "src/components/PrimaryWindow.jsx": {
+        "lines": 116,
+        "imports": [
+          "src/config/css-ns.js",
+          "src/containers/AudioViewer.js",
+          "src/containers/CollectionDialog.js",
+          "src/containers/CompanionArea.js",
+          "src/containers/GalleryView.js",
+          "src/containers/SelectCollection.js",
+          "src/containers/TextViewer.js",
+          "src/containers/VideoViewer.js",
+          "src/containers/WindowSideBar.js",
+          "src/containers/WindowViewer.js"
+        ]
+      },
+      "src/components/SanitizedHtml.jsx": {
+        "lines": 38,
+        "imports": [
+          "src/config/css-ns.js",
+          "src/lib/htmlRules.ts"
+        ]
+      },
+      "src/components/ScrollIndicatedDialogContent.tsx": {
+        "lines": 67,
+        "imports": []
+      },
+      "src/components/ScrollTo.jsx": {
+        "lines": 62,
+        "imports": [
+          "src/config/css-ns.js"
+        ]
+      },
+      "src/components/SearchHit.jsx": {
+        "lines": 223,
+        "imports": [
+          "src/components/ScrollTo.jsx",
+          "src/config/css-ns.js",
+          "src/containers/SanitizedHtml.js",
+          "src/lib/TruncatedHit.ts"
+        ]
+      },
+      "src/components/SearchPanel.jsx": {
+        "lines": 81,
+        "imports": [
+          "src/containers/CompanionWindow.js",
+          "src/containers/SearchPanelControls.js",
+          "src/containers/SearchResults.js"
+        ]
+      },
+      "src/components/SearchPanelControls.jsx": {
+        "lines": 175,
+        "imports": [
+          "src/containers/MiradorMenuButton.js",
+          "src/containers/SearchPanelNavigation.js"
+        ]
+      },
+      "src/components/SearchPanelNavigation.jsx": {
+        "lines": 85,
+        "imports": [
+          "src/containers/MiradorMenuButton.js"
+        ]
+      },
+      "src/components/SearchResults.jsx": {
+        "lines": 139,
+        "imports": [
+          "src/components/ScrollTo.jsx",
+          "src/containers/SearchHit.js"
+        ]
+      },
+      "src/components/SelectCollection.tsx": {
+        "lines": 52,
+        "imports": []
+      },
+      "src/components/SidebarIndexItem.tsx": {
+        "lines": 11,
+        "imports": []
+      },
+      "src/components/SidebarIndexList.jsx": {
+        "lines": 74,
+        "imports": [
+          "src/components/ScrollTo.jsx",
+          "src/containers/SidebarIndexItem.js",
+          "src/containers/SidebarIndexThumbnail.js",
+          "src/lib/MiradorCanvas.js"
+        ]
+      },
+      "src/components/SidebarIndexTableOfContents.jsx": {
+        "lines": 171,
+        "imports": [
+          "src/components/ScrollTo.jsx"
+        ]
+      },
+      "src/components/SidebarIndexThumbnail.jsx": {
+        "lines": 23,
+        "imports": [
+          "src/containers/IIIFThumbnail.js"
+        ]
+      },
+      "src/components/TextViewer.jsx": {
+        "lines": 38,
+        "imports": [
+          "src/containers/WindowCanvasNavigationControls.js"
+        ]
+      },
+      "src/components/ThumbnailCanvasGrouping.jsx": {
+        "lines": 123,
+        "imports": [
+          "src/config/css-ns.js",
+          "src/containers/IIIFThumbnail.js"
+        ]
+      },
+      "src/components/ThumbnailNavigation.jsx": {
+        "lines": 232,
+        "imports": [
+          "src/config/css-ns.js",
+          "src/containers/ThumbnailCanvasGrouping.js",
+          "src/hooks/index.js"
+        ]
+      },
+      "src/components/VideoViewer.tsx": {
+        "lines": 35,
+        "imports": []
+      },
+      "src/components/ViewerInfo.jsx": {
+        "lines": 56,
+        "imports": [
+          "src/config/css-ns.js"
+        ]
+      },
+      "src/components/ViewerNavigation.jsx": {
+        "lines": 73,
+        "imports": [
+          "src/config/css-ns.js",
+          "src/containers/MiradorMenuButton.js"
+        ]
+      },
+      "src/components/Window.jsx": {
+        "lines": 151,
+        "imports": [
+          "src/components/PluginHook.jsx",
+          "src/config/css-ns.js",
+          "src/containers/CompanionArea.js",
+          "src/containers/ErrorContent.js",
+          "src/containers/IIIFAuthentication.js",
+          "src/containers/MinimalWindow.js",
+          "src/containers/PrimaryWindow.js",
+          "src/containers/WindowTopBar.js"
+        ]
+      },
+      "src/components/WindowAuthenticationBar.jsx": {
+        "lines": 177,
+        "imports": [
+          "src/components/PluginHook.jsx",
+          "src/containers/SanitizedHtml.js"
+        ]
+      },
+      "src/components/WindowCanvasNavigationControls.jsx": {
+        "lines": 92,
+        "imports": [
+          "src/components/PluginHook.jsx",
+          "src/config/css-ns.js",
+          "src/containers/ViewerInfo.js",
+          "src/containers/ViewerNavigation.js",
+          "src/containers/ZoomControls.js"
+        ]
+      },
+      "src/components/WindowList.jsx": {
+        "lines": 72,
+        "imports": [
+          "src/contexts/WorkspaceContext.ts"
+        ]
+      },
+      "src/components/WindowListButton.jsx": {
+        "lines": 58,
+        "imports": [
+          "src/containers/MiradorMenuButton.js",
+          "src/containers/WindowList.js"
+        ]
+      },
+      "src/components/WindowSideBar.jsx": {
+        "lines": 50,
+        "imports": [
+          "src/containers/WindowSideBarButtons.js"
+        ]
+      },
+      "src/components/WindowSideBarAnnotationsPanel.jsx": {
+        "lines": 52,
+        "imports": [
+          "src/components/CompanionWindowSection.tsx",
+          "src/config/css-ns.js",
+          "src/containers/AnnotationSettings.js",
+          "src/containers/CanvasAnnotations.js",
+          "src/containers/CompanionWindow.js"
+        ]
+      },
+      "src/components/WindowSideBarButtons.jsx": {
+        "lines": 152,
+        "imports": [
+          "src/components/icons/CanvasIndexIcon.tsx",
+          "src/extend/usePlugins.js"
+        ]
+      },
+      "src/components/WindowSideBarCanvasPanel.jsx": {
+        "lines": 166,
+        "imports": [
+          "src/components/IIIFResourceLabel.jsx",
+          "src/containers/CompanionWindow.js",
+          "src/containers/SidebarIndexList.js",
+          "src/containers/SidebarIndexTableOfContents.js"
+        ]
+      },
+      "src/components/WindowSideBarCollectionPanel.jsx": {
+        "lines": 180,
+        "imports": [
+          "src/components/IIIFResourceLabel.jsx",
+          "src/containers/CompanionWindow.js",
+          "src/containers/IIIFThumbnail.js"
+        ]
+      },
+      "src/components/WindowSideBarInfoPanel.jsx": {
+        "lines": 68,
+        "imports": [
+          "src/components/CompanionWindowSection.tsx",
+          "src/config/css-ns.js",
+          "src/containers/CanvasInfo.js",
+          "src/containers/CollectionInfo.js",
+          "src/containers/CompanionWindow.js",
+          "src/containers/LocalePicker.js",
+          "src/containers/ManifestInfo.js",
+          "src/containers/ManifestRelatedLinks.js"
+        ]
+      },
+      "src/components/WindowThumbnailSettings.jsx": {
+        "lines": 131,
+        "imports": [
+          "src/components/icons/ThumbnailNavigationBottomIcon.tsx",
+          "src/components/icons/ThumbnailNavigationRightIcon.tsx"
+        ]
+      },
+      "src/components/WindowTopBar.jsx": {
+        "lines": 126,
+        "imports": [
+          "src/components/icons/WindowMaxIcon.tsx",
+          "src/components/icons/WindowMinIcon.tsx",
+          "src/config/css-ns.js",
+          "src/containers/FullScreenButton.js",
+          "src/containers/MiradorMenuButton.js",
+          "src/containers/WindowTopBarPluginArea.js",
+          "src/containers/WindowTopBarPluginMenu.js",
+          "src/containers/WindowTopBarTitle.js",
+          "src/containers/WindowTopMenuButton.js"
+        ]
+      },
+      "src/components/WindowTopBarPluginArea.jsx": {
+        "lines": 9,
+        "imports": [
+          "src/components/PluginHook.jsx"
+        ]
+      },
+      "src/components/WindowTopBarPluginMenu.jsx": {
+        "lines": 79,
+        "imports": [
+          "src/components/PluginHook.jsx",
+          "src/containers/MiradorMenuButton.js",
+          "src/contexts/WorkspaceContext.ts",
+          "src/extend/usePlugins.js"
+        ]
+      },
+      "src/components/WindowTopBarTitle.tsx": {
+        "lines": 75,
+        "imports": []
+      },
+      "src/components/WindowTopMenu.jsx": {
+        "lines": 86,
+        "imports": [
+          "src/components/PluginHook.jsx",
+          "src/config/css-ns.js",
+          "src/containers/WindowThumbnailSettings.js",
+          "src/containers/WindowViewSettings.js",
+          "src/contexts/WorkspaceContext.ts",
+          "src/extend/usePlugins.js"
+        ]
+      },
+      "src/components/WindowTopMenuButton.jsx": {
+        "lines": 50,
+        "imports": [
+          "src/components/icons/WindowOptionsIcon.tsx",
+          "src/containers/MiradorMenuButton.js",
+          "src/containers/WindowTopMenu.js"
+        ]
+      },
+      "src/components/WindowViewSettings.jsx": {
+        "lines": 96,
+        "imports": [
+          "src/components/icons/BookViewIcon.tsx",
+          "src/components/icons/GalleryViewIcon.tsx"
+        ]
+      },
+      "src/components/WindowViewer.jsx": {
+        "lines": 27,
+        "imports": [
+          "src/containers/OpenSeadragonViewer.js",
+          "src/containers/WindowCanvasNavigationControls.js"
+        ]
+      },
+      "src/components/Workspace.jsx": {
+        "lines": 125,
+        "imports": [
+          "src/components/IIIFDropTarget.jsx",
+          "src/config/css-ns.js",
+          "src/containers/Window.js",
+          "src/containers/WorkspaceElastic.js",
+          "src/containers/WorkspaceMosaic.js"
+        ]
+      },
+      "src/components/WorkspaceAdd.jsx": {
+        "lines": 222,
+        "imports": [
+          "src/components/IIIFDropTarget.jsx",
+          "src/components/PluginHook.jsx",
+          "src/config/css-ns.js",
+          "src/containers/ManifestForm.js",
+          "src/containers/ManifestListItem.js",
+          "src/containers/MiradorMenuButton.js"
+        ]
+      },
+      "src/components/WorkspaceAddButton.tsx": {
+        "lines": 73,
+        "imports": []
+      },
+      "src/components/WorkspaceArea.jsx": {
+        "lines": 67,
+        "imports": [
+          "src/config/css-ns.js",
+          "src/containers/BackgroundPluginArea.js",
+          "src/containers/ErrorDialog.js",
+          "src/containers/Workspace.js",
+          "src/containers/WorkspaceAdd.js",
+          "src/containers/WorkspaceControlPanel.js"
+        ]
+      },
+      "src/components/WorkspaceControlPanel.jsx": {
+        "lines": 86,
+        "imports": [
+          "src/config/css-ns.js",
+          "src/containers/Branding.js",
+          "src/containers/WorkspaceAddButton.js",
+          "src/containers/WorkspaceControlPanelButtons.js"
+        ]
+      },
+      "src/components/WorkspaceControlPanelButtons.jsx": {
+        "lines": 21,
+        "imports": [
+          "src/components/PluginHook.jsx",
+          "src/containers/FullScreenButton.js",
+          "src/containers/WindowListButton.js",
+          "src/containers/WorkspaceMenuButton.js",
+          "src/containers/WorkspaceOptionsButton.js"
+        ]
+      },
+      "src/components/WorkspaceDialog.tsx": {
+        "lines": 16,
+        "imports": []
+      },
+      "src/components/WorkspaceElastic.jsx": {
+        "lines": 89,
+        "imports": [
+          "src/config/css-ns.js",
+          "src/containers/WorkspaceElasticWindow.js"
+        ]
+      },
+      "src/components/WorkspaceElasticWindow.jsx": {
+        "lines": 80,
+        "imports": [
+          "src/config/css-ns.js",
+          "src/containers/Window.js"
+        ]
+      },
+      "src/components/WorkspaceExport.jsx": {
+        "lines": 100,
+        "imports": [
+          "src/components/WorkspaceDialog.tsx"
+        ]
+      },
+      "src/components/WorkspaceImport.jsx": {
+        "lines": 90,
+        "imports": [
+          "src/components/WorkspaceDialog.tsx",
+          "src/containers/ScrollIndicatedDialogContent.js"
+        ]
+      },
+      "src/components/WorkspaceMenu.jsx": {
+        "lines": 127,
+        "imports": [
+          "src/components/NestedMenu.tsx",
+          "src/components/PluginHook.jsx",
+          "src/containers/ChangeThemeDialog.js",
+          "src/containers/LanguageSettings.js",
+          "src/containers/WorkspaceSelectionDialog.js",
+          "src/contexts/WorkspaceContext.ts"
+        ]
+      },
+      "src/components/WorkspaceMenuButton.jsx": {
+        "lines": 43,
+        "imports": [
+          "src/containers/MiradorMenuButton.js",
+          "src/containers/WorkspaceMenu.js"
+        ]
+      },
+      "src/components/WorkspaceMosaic.jsx": {
+        "lines": 150,
+        "imports": [
+          "src/containers/MosaicRenderPreview.js",
+          "src/containers/Window.js",
+          "src/lib/MosaicLayout.ts",
+          "src/styles/react-mosaic-component.js"
+        ]
+      },
+      "src/components/WorkspaceOptionsButton.jsx": {
+        "lines": 36,
+        "imports": [
+          "src/containers/MiradorMenuButton.js",
+          "src/containers/WorkspaceOptionsMenu.js"
+        ]
+      },
+      "src/components/WorkspaceOptionsMenu.jsx": {
+        "lines": 113,
+        "imports": [
+          "src/components/PluginHook.jsx",
+          "src/containers/WorkspaceExport.js",
+          "src/containers/WorkspaceImport.js",
+          "src/contexts/WorkspaceContext.ts"
+        ]
+      },
+      "src/components/WorkspaceSelectionDialog.jsx": {
+        "lines": 166,
+        "imports": [
+          "src/components/WorkspaceDialog.tsx",
+          "src/components/icons/WorkspaceTypeElasticIcon.tsx",
+          "src/components/icons/WorkspaceTypeMosaicIcon.tsx",
+          "src/containers/ScrollIndicatedDialogContent.js"
+        ]
+      },
+      "src/components/ZoomControls.jsx": {
+        "lines": 58,
+        "imports": [
+          "src/components/icons/RestoreZoomIcon.tsx",
+          "src/containers/MiradorMenuButton.js"
+        ]
+      },
+      "src/components/icons/BookViewIcon.tsx": {
+        "lines": 16,
+        "imports": []
+      },
+      "src/components/icons/CanvasIndexIcon.tsx": {
+        "lines": 15,
+        "imports": []
+      },
+      "src/components/icons/GalleryViewIcon.tsx": {
+        "lines": 18,
+        "imports": []
+      },
+      "src/components/icons/MiradorIcon.tsx": {
+        "lines": 15,
+        "imports": []
+      },
+      "src/components/icons/RestoreZoomIcon.tsx": {
+        "lines": 16,
+        "imports": []
+      },
+      "src/components/icons/ThumbnailNavigationBottomIcon.tsx": {
+        "lines": 16,
+        "imports": []
+      },
+      "src/components/icons/ThumbnailNavigationRightIcon.tsx": {
+        "lines": 17,
+        "imports": []
+      },
+      "src/components/icons/WindowMaxIcon.tsx": {
+        "lines": 16,
+        "imports": []
+      },
+      "src/components/icons/WindowMinIcon.tsx": {
+        "lines": 16,
+        "imports": []
+      },
+      "src/components/icons/WindowOptionsIcon.tsx": {
+        "lines": 17,
+        "imports": []
+      },
+      "src/components/icons/WorkspaceTypeElasticIcon.tsx": {
+        "lines": 158,
+        "imports": []
+      },
+      "src/components/icons/WorkspaceTypeMosaicIcon.tsx": {
+        "lines": 163,
+        "imports": []
+      },
+      "src/components/icons/index.js": {
+        "lines": 28,
+        "imports": [
+          "src/components/icons/BookViewIcon.tsx",
+          "src/components/icons/CanvasIndexIcon.tsx",
+          "src/components/icons/GalleryViewIcon.tsx",
+          "src/components/icons/MiradorIcon.tsx",
+          "src/components/icons/RestoreZoomIcon.tsx",
+          "src/components/icons/ThumbnailNavigationBottomIcon.tsx",
+          "src/components/icons/ThumbnailNavigationRightIcon.tsx",
+          "src/components/icons/WindowMaxIcon.tsx",
+          "src/components/icons/WindowMinIcon.tsx",
+          "src/components/icons/WindowOptionsIcon.tsx",
+          "src/components/icons/WorkspaceTypeElasticIcon.tsx",
+          "src/components/icons/WorkspaceTypeMosaicIcon.tsx"
+        ]
+      },
+      "src/components/index.js": {
+        "lines": 109,
+        "imports": [
+          "src/components/AccessTokenSender.jsx",
+          "src/components/AnnotationSettings.jsx",
+          "src/components/AnnotationsOverlay.jsx",
+          "src/components/App.jsx",
+          "src/components/AppProviders.jsx",
+          "src/components/AttributionPanel.jsx",
+          "src/components/AudioViewer.tsx",
+          "src/components/BackgroundPluginArea.jsx",
+          "src/components/Branding.jsx",
+          "src/components/CanvasAnnotations.jsx",
+          "src/components/CanvasInfo.jsx",
+          "src/components/CanvasLayers.jsx",
+          "src/components/ChangeThemeDialog.jsx",
+          "src/components/CollapsibleSection.tsx",
+          "src/components/CollectionDialog.jsx",
+          "src/components/CollectionInfo.jsx",
+          "src/components/CompanionArea.jsx",
+          "src/components/CompanionWindow.jsx",
+          "src/components/CompanionWindowFactory.jsx",
+          "src/components/CompanionWindowSection.tsx",
+          "src/components/CustomPanel.jsx",
+          "src/components/ErrorContent.jsx",
+          "src/components/ErrorDialog.tsx",
+          "src/components/FullScreenButton.jsx",
+          "src/components/GalleryView.jsx",
+          "src/components/GalleryViewThumbnail.jsx",
+          "src/components/IIIFAuthentication.jsx",
+          "src/components/IIIFDropTarget.jsx",
+          "src/components/IIIFIFrameCommunication.tsx",
+          "src/components/IIIFThumbnail.jsx",
+          "src/components/ImageFailureMessage.jsx",
+          "src/components/LabelValueMetadata.jsx",
+          "src/components/LanguageSettings.tsx",
+          "src/components/LayersPanel.jsx",
+          "src/components/LocalePicker.jsx",
+          "src/components/ManifestForm.tsx",
+          "src/components/ManifestInfo.jsx",
+          "src/components/ManifestListItem.jsx",
+          "src/components/ManifestListItemError.tsx",
+          "src/components/ManifestRelatedLinks.jsx",
+          "src/components/MinimalWindow.jsx",
+          "src/components/MiradorMenuButton.jsx",
+          "src/components/MosaicRenderPreview.jsx",
+          "src/components/NestedMenu.tsx",
+          "src/components/NewBrowserWindow.tsx",
+          "src/components/OpenSeadragonViewer.jsx",
+          "src/components/PluginHook.jsx",
+          "src/components/PrimaryWindow.jsx",
+          "src/components/SanitizedHtml.jsx",
+          "src/components/ScrollIndicatedDialogContent.tsx",
+          "src/components/ScrollTo.jsx",
+          "src/components/SearchHit.jsx",
+          "src/components/SearchPanel.jsx",
+          "src/components/SearchPanelControls.jsx",
+          "src/components/SearchPanelNavigation.jsx",
+          "src/components/SearchResults.jsx",
+          "src/components/SelectCollection.tsx",
+          "src/components/SidebarIndexItem.tsx",
+          "src/components/SidebarIndexList.jsx",
+          "src/components/SidebarIndexTableOfContents.jsx",
+          "src/components/SidebarIndexThumbnail.jsx",
+          "src/components/TextViewer.jsx",
+          "src/components/ThumbnailCanvasGrouping.jsx",
+          "src/components/ThumbnailNavigation.jsx",
+          "src/components/VideoViewer.tsx",
+          "src/components/ViewerInfo.jsx",
+          "src/components/ViewerNavigation.jsx",
+          "src/components/Window.jsx",
+          "src/components/WindowAuthenticationBar.jsx",
+          "src/components/WindowCanvasNavigationControls.jsx",
+          "src/components/WindowList.jsx",
+          "src/components/WindowListButton.jsx",
+          "src/components/WindowSideBar.jsx",
+          "src/components/WindowSideBarAnnotationsPanel.jsx",
+          "src/components/WindowSideBarButtons.jsx",
+          "src/components/WindowSideBarCanvasPanel.jsx",
+          "src/components/WindowSideBarCollectionPanel.jsx",
+          "src/components/WindowSideBarInfoPanel.jsx",
+          "src/components/WindowThumbnailSettings.jsx",
+          "src/components/WindowTopBar.jsx",
+          "src/components/WindowTopBarPluginArea.jsx",
+          "src/components/WindowTopBarPluginMenu.jsx",
+          "src/components/WindowTopBarTitle.tsx",
+          "src/components/WindowTopMenu.jsx",
+          "src/components/WindowTopMenuButton.jsx",
+          "src/components/WindowViewSettings.jsx",
+          "src/components/WindowViewer.jsx",
+          "src/components/Workspace.jsx",
+          "src/components/WorkspaceAdd.jsx",
+          "src/components/WorkspaceAddButton.tsx",
+          "src/components/WorkspaceArea.jsx",
+          "src/components/WorkspaceControlPanel.jsx",
+          "src/components/WorkspaceControlPanelButtons.jsx",
+          "src/components/WorkspaceDialog.tsx",
+          "src/components/WorkspaceElastic.jsx",
+          "src/components/WorkspaceElasticWindow.jsx",
+          "src/components/WorkspaceExport.jsx",
+          "src/components/WorkspaceImport.jsx",
+          "src/components/WorkspaceMenu.jsx",
+          "src/components/WorkspaceMenuButton.jsx",
+          "src/components/WorkspaceMosaic.jsx",
+          "src/components/WorkspaceOptionsButton.jsx",
+          "src/components/WorkspaceOptionsMenu.jsx",
+          "src/components/WorkspaceSelectionDialog.jsx",
+          "src/components/ZoomControls.jsx",
+          "src/components/icons/index.js"
+        ]
+      },
+      "src/config/css-ns.js": {
+        "lines": 11,
+        "imports": [
+          "src/config/settings.ts"
+        ]
+      },
+      "src/config/index.js": {
+        "lines": 3,
+        "imports": [
+          "src/config/css-ns.js",
+          "src/config/settings.ts"
+        ]
+      },
+      "src/config/settings.ts": {
+        "lines": 611,
+        "imports": []
+      },
+      "src/containers/AnnotationSettings.js": {
+        "lines": 28,
+        "imports": [
+          "src/components/AnnotationSettings.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/AnnotationsOverlay.js": {
+        "lines": 52,
+        "imports": [
+          "src/components/AnnotationsOverlay.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/AppProviders.js": {
+        "lines": 21,
+        "imports": [
+          "src/components/AppProviders.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/AttributionPanel.js": {
+        "lines": 21,
+        "imports": [
+          "src/components/AttributionPanel.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/AudioViewer.js": {
+        "lines": 17,
+        "imports": [
+          "src/components/AudioViewer.tsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/BackgroundPluginArea.js": {
+        "lines": 5,
+        "imports": [
+          "src/components/BackgroundPluginArea.jsx",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/containers/Branding.js": {
+        "lines": 5,
+        "imports": [
+          "src/components/Branding.jsx",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/containers/CanvasAnnotations.js": {
+        "lines": 33,
+        "imports": [
+          "src/components/CanvasAnnotations.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/CanvasInfo.js": {
+        "lines": 21,
+        "imports": [
+          "src/components/CanvasInfo.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/CanvasLayers.js": {
+        "lines": 26,
+        "imports": [
+          "src/components/CanvasLayers.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/ChangeThemeDialog.js": {
+        "lines": 30,
+        "imports": [
+          "src/components/ChangeThemeDialog.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/CollapsibleSection.js": {
+        "lines": 4,
+        "imports": [
+          "src/components/CollapsibleSection.tsx"
+        ]
+      },
+      "src/containers/CollectionDialog.js": {
+        "lines": 49,
+        "imports": [
+          "src/components/CollectionDialog.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/CollectionInfo.js": {
+        "lines": 30,
+        "imports": [
+          "src/components/CollectionInfo.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/CompanionArea.js": {
+        "lines": 23,
+        "imports": [
+          "src/components/CompanionArea.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/CompanionWindow.js": {
+        "lines": 41,
+        "imports": [
+          "src/components/CompanionWindow.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/CompanionWindowFactory.js": {
+        "lines": 24,
+        "imports": [
+          "src/components/CompanionWindowFactory.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/CustomPanel.js": {
+        "lines": 14,
+        "imports": [
+          "src/components/CustomPanel.jsx",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/containers/ErrorContent.js": {
+        "lines": 21,
+        "imports": [
+          "src/components/ErrorContent.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/ErrorDialog.js": {
+        "lines": 29,
+        "imports": [
+          "src/components/ErrorDialog.tsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/FullScreenButton.js": {
+        "lines": 23,
+        "imports": [
+          "src/components/FullScreenButton.jsx",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/containers/GalleryView.js": {
+        "lines": 24,
+        "imports": [
+          "src/components/GalleryView.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/GalleryViewThumbnail.js": {
+        "lines": 52,
+        "imports": [
+          "src/components/GalleryViewThumbnail.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/IIIFAuthentication.js": {
+        "lines": 87,
+        "imports": [
+          "src/components/IIIFAuthentication.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/IIIFThumbnail.js": {
+        "lines": 18,
+        "imports": [
+          "src/components/IIIFThumbnail.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/LabelValueMetadata.js": {
+        "lines": 15,
+        "imports": [
+          "src/components/LabelValueMetadata.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/LanguageSettings.js": {
+        "lines": 27,
+        "imports": [
+          "src/components/LanguageSettings.tsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/LayersPanel.js": {
+        "lines": 17,
+        "imports": [
+          "src/components/LayersPanel.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/LocalePicker.js": {
+        "lines": 4,
+        "imports": [
+          "src/components/LocalePicker.jsx"
+        ]
+      },
+      "src/containers/ManifestForm.js": {
+        "lines": 17,
+        "imports": [
+          "src/components/ManifestForm.tsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js"
+        ]
+      },
+      "src/containers/ManifestInfo.js": {
+        "lines": 25,
+        "imports": [
+          "src/components/ManifestInfo.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/ManifestListItem.js": {
+        "lines": 53,
+        "imports": [
+          "src/components/ManifestListItem.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/ManifestListItemError.js": {
+        "lines": 16,
+        "imports": [
+          "src/components/ManifestListItemError.tsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js"
+        ]
+      },
+      "src/containers/ManifestRelatedLinks.js": {
+        "lines": 29,
+        "imports": [
+          "src/components/ManifestRelatedLinks.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/MinimalWindow.js": {
+        "lines": 26,
+        "imports": [
+          "src/components/MinimalWindow.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/MiradorMenuButton.js": {
+        "lines": 8,
+        "imports": [
+          "src/components/MiradorMenuButton.jsx",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/containers/MosaicRenderPreview.js": {
+        "lines": 15,
+        "imports": [
+          "src/components/MosaicRenderPreview.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/OpenSeadragonViewer.js": {
+        "lines": 60,
+        "imports": [
+          "src/components/OpenSeadragonViewer.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/PrimaryWindow.js": {
+        "lines": 28,
+        "imports": [
+          "src/components/PrimaryWindow.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/SanitizedHtml.js": {
+        "lines": 4,
+        "imports": [
+          "src/components/SanitizedHtml.jsx"
+        ]
+      },
+      "src/containers/ScrollIndicatedDialogContent.js": {
+        "lines": 4,
+        "imports": [
+          "src/components/ScrollIndicatedDialogContent.tsx"
+        ]
+      },
+      "src/containers/SearchHit.js": {
+        "lines": 72,
+        "imports": [
+          "src/components/SearchHit.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/SearchPanel.js": {
+        "lines": 24,
+        "imports": [
+          "src/components/SearchPanel.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/SearchPanelControls.js": {
+        "lines": 37,
+        "imports": [
+          "src/components/SearchPanelControls.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/SearchPanelNavigation.js": {
+        "lines": 40,
+        "imports": [
+          "src/components/SearchPanelNavigation.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/SearchResults.js": {
+        "lines": 39,
+        "imports": [
+          "src/components/SearchResults.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/SelectCollection.js": {
+        "lines": 25,
+        "imports": [
+          "src/components/SelectCollection.tsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/SidebarIndexItem.js": {
+        "lines": 9,
+        "imports": [
+          "src/components/SidebarIndexItem.tsx",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/containers/SidebarIndexList.js": {
+        "lines": 29,
+        "imports": [
+          "src/components/SidebarIndexList.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/SidebarIndexTableOfContents.js": {
+        "lines": 37,
+        "imports": [
+          "src/components/SidebarIndexTableOfContents.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/SidebarIndexThumbnail.js": {
+        "lines": 19,
+        "imports": [
+          "src/components/SidebarIndexThumbnail.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/TextViewer.js": {
+        "lines": 20,
+        "imports": [
+          "src/components/TextViewer.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/ThumbnailCanvasGrouping.js": {
+        "lines": 30,
+        "imports": [
+          "src/components/ThumbnailCanvasGrouping.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/ThumbnailNavigation.js": {
+        "lines": 49,
+        "imports": [
+          "src/components/ThumbnailNavigation.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/VideoViewer.js": {
+        "lines": 17,
+        "imports": [
+          "src/components/VideoViewer.tsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/ViewerInfo.js": {
+        "lines": 31,
+        "imports": [
+          "src/components/ViewerInfo.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/ViewerNavigation.js": {
+        "lines": 32,
+        "imports": [
+          "src/components/ViewerNavigation.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/Window.js": {
+        "lines": 46,
+        "imports": [
+          "src/components/Window.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WindowAuthenticationBar.js": {
+        "lines": 8,
+        "imports": [
+          "src/components/WindowAuthenticationBar.jsx",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/containers/WindowCanvasNavigationControls.js": {
+        "lines": 16,
+        "imports": [
+          "src/components/WindowCanvasNavigationControls.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WindowList.js": {
+        "lines": 31,
+        "imports": [
+          "src/components/WindowList.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WindowListButton.js": {
+        "lines": 16,
+        "imports": [
+          "src/components/WindowListButton.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WindowSideBar.js": {
+        "lines": 21,
+        "imports": [
+          "src/components/WindowSideBar.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WindowSideBarAnnotationsPanel.js": {
+        "lines": 24,
+        "imports": [
+          "src/components/WindowSideBarAnnotationsPanel.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WindowSideBarButtons.js": {
+        "lines": 76,
+        "imports": [
+          "src/components/WindowSideBarButtons.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/lib/MiradorCanvas.js",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WindowSideBarCanvasPanel.js": {
+        "lines": 51,
+        "imports": [
+          "src/components/WindowSideBarCanvasPanel.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WindowSideBarCollectionPanel.js": {
+        "lines": 49,
+        "imports": [
+          "src/components/WindowSideBarCollectionPanel.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WindowSideBarInfoPanel.js": {
+        "lines": 36,
+        "imports": [
+          "src/components/WindowSideBarInfoPanel.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WindowThumbnailSettings.js": {
+        "lines": 32,
+        "imports": [
+          "src/components/WindowThumbnailSettings.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WindowTopBar.js": {
+        "lines": 40,
+        "imports": [
+          "src/components/WindowTopBar.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WindowTopBarPluginArea.js": {
+        "lines": 9,
+        "imports": [
+          "src/components/WindowTopBarPluginArea.jsx",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/containers/WindowTopBarPluginMenu.js": {
+        "lines": 8,
+        "imports": [
+          "src/components/WindowTopBarPluginMenu.jsx",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/containers/WindowTopBarTitle.js": {
+        "lines": 18,
+        "imports": [
+          "src/components/WindowTopBarTitle.tsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WindowTopMenu.js": {
+        "lines": 29,
+        "imports": [
+          "src/components/WindowTopMenu.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WindowTopMenuButton.js": {
+        "lines": 8,
+        "imports": [
+          "src/components/WindowTopMenuButton.jsx",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/containers/WindowViewSettings.js": {
+        "lines": 31,
+        "imports": [
+          "src/components/WindowViewSettings.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WindowViewer.js": {
+        "lines": 11,
+        "imports": [
+          "src/components/WindowViewer.jsx",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/containers/Workspace.js": {
+        "lines": 37,
+        "imports": [
+          "src/components/Workspace.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WorkspaceAdd.js": {
+        "lines": 28,
+        "imports": [
+          "src/components/WorkspaceAdd.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WorkspaceAddButton.js": {
+        "lines": 31,
+        "imports": [
+          "src/components/WorkspaceAddButton.tsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WorkspaceArea.js": {
+        "lines": 22,
+        "imports": [
+          "src/components/WorkspaceArea.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WorkspaceControlPanel.js": {
+        "lines": 11,
+        "imports": [
+          "src/components/WorkspaceControlPanel.jsx",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/containers/WorkspaceControlPanelButtons.js": {
+        "lines": 8,
+        "imports": [
+          "src/components/WorkspaceControlPanelButtons.jsx",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/containers/WorkspaceElastic.js": {
+        "lines": 42,
+        "imports": [
+          "src/components/WorkspaceElastic.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WorkspaceElasticWindow.js": {
+        "lines": 37,
+        "imports": [
+          "src/components/WorkspaceElasticWindow.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WorkspaceExport.js": {
+        "lines": 19,
+        "imports": [
+          "src/components/WorkspaceExport.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WorkspaceImport.js": {
+        "lines": 20,
+        "imports": [
+          "src/components/WorkspaceImport.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js"
+        ]
+      },
+      "src/containers/WorkspaceMenu.js": {
+        "lines": 31,
+        "imports": [
+          "src/components/WorkspaceMenu.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WorkspaceMenuButton.js": {
+        "lines": 11,
+        "imports": [
+          "src/components/WorkspaceMenuButton.jsx",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/containers/WorkspaceMosaic.js": {
+        "lines": 33,
+        "imports": [
+          "src/components/WorkspaceMosaic.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/WorkspaceOptionsButton.js": {
+        "lines": 8,
+        "imports": [
+          "src/components/WorkspaceOptionsButton.jsx",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/containers/WorkspaceOptionsMenu.js": {
+        "lines": 4,
+        "imports": [
+          "src/components/WorkspaceOptionsMenu.jsx"
+        ]
+      },
+      "src/containers/WorkspaceSelectionDialog.js": {
+        "lines": 27,
+        "imports": [
+          "src/components/WorkspaceSelectionDialog.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/ZoomControls.js": {
+        "lines": 27,
+        "imports": [
+          "src/components/ZoomControls.jsx",
+          "src/extend/withPlugins.jsx",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/containers/index.js": {
+        "lines": 95,
+        "imports": [
+          "src/containers/AnnotationSettings.js",
+          "src/containers/AnnotationsOverlay.js",
+          "src/containers/AppProviders.js",
+          "src/containers/AttributionPanel.js",
+          "src/containers/AudioViewer.js",
+          "src/containers/BackgroundPluginArea.js",
+          "src/containers/Branding.js",
+          "src/containers/CanvasAnnotations.js",
+          "src/containers/CanvasInfo.js",
+          "src/containers/CanvasLayers.js",
+          "src/containers/ChangeThemeDialog.js",
+          "src/containers/CollapsibleSection.js",
+          "src/containers/CollectionDialog.js",
+          "src/containers/CollectionInfo.js",
+          "src/containers/CompanionArea.js",
+          "src/containers/CompanionWindow.js",
+          "src/containers/CompanionWindowFactory.js",
+          "src/containers/CustomPanel.js",
+          "src/containers/ErrorContent.js",
+          "src/containers/ErrorDialog.js",
+          "src/containers/FullScreenButton.js",
+          "src/containers/GalleryView.js",
+          "src/containers/GalleryViewThumbnail.js",
+          "src/containers/IIIFAuthentication.js",
+          "src/containers/IIIFThumbnail.js",
+          "src/containers/LabelValueMetadata.js",
+          "src/containers/LanguageSettings.js",
+          "src/containers/LayersPanel.js",
+          "src/containers/LocalePicker.js",
+          "src/containers/ManifestForm.js",
+          "src/containers/ManifestInfo.js",
+          "src/containers/ManifestListItem.js",
+          "src/containers/ManifestListItemError.js",
+          "src/containers/ManifestRelatedLinks.js",
+          "src/containers/MinimalWindow.js",
+          "src/containers/MiradorMenuButton.js",
+          "src/containers/MosaicRenderPreview.js",
+          "src/containers/OpenSeadragonViewer.js",
+          "src/containers/PrimaryWindow.js",
+          "src/containers/SanitizedHtml.js",
+          "src/containers/ScrollIndicatedDialogContent.js",
+          "src/containers/SearchHit.js",
+          "src/containers/SearchPanel.js",
+          "src/containers/SearchPanelControls.js",
+          "src/containers/SearchPanelNavigation.js",
+          "src/containers/SearchResults.js",
+          "src/containers/SelectCollection.js",
+          "src/containers/SidebarIndexItem.js",
+          "src/containers/SidebarIndexList.js",
+          "src/containers/SidebarIndexTableOfContents.js",
+          "src/containers/SidebarIndexThumbnail.js",
+          "src/containers/TextViewer.js",
+          "src/containers/ThumbnailCanvasGrouping.js",
+          "src/containers/ThumbnailNavigation.js",
+          "src/containers/VideoViewer.js",
+          "src/containers/ViewerInfo.js",
+          "src/containers/ViewerNavigation.js",
+          "src/containers/Window.js",
+          "src/containers/WindowAuthenticationBar.js",
+          "src/containers/WindowCanvasNavigationControls.js",
+          "src/containers/WindowList.js",
+          "src/containers/WindowListButton.js",
+          "src/containers/WindowSideBar.js",
+          "src/containers/WindowSideBarAnnotationsPanel.js",
+          "src/containers/WindowSideBarButtons.js",
+          "src/containers/WindowSideBarCanvasPanel.js",
+          "src/containers/WindowSideBarCollectionPanel.js",
+          "src/containers/WindowSideBarInfoPanel.js",
+          "src/containers/WindowThumbnailSettings.js",
+          "src/containers/WindowTopBar.js",
+          "src/containers/WindowTopBarPluginArea.js",
+          "src/containers/WindowTopBarPluginMenu.js",
+          "src/containers/WindowTopBarTitle.js",
+          "src/containers/WindowTopMenu.js",
+          "src/containers/WindowTopMenuButton.js",
+          "src/containers/WindowViewSettings.js",
+          "src/containers/WindowViewer.js",
+          "src/containers/Workspace.js",
+          "src/containers/WorkspaceAdd.js",
+          "src/containers/WorkspaceAddButton.js",
+          "src/containers/WorkspaceArea.js",
+          "src/containers/WorkspaceControlPanel.js",
+          "src/containers/WorkspaceControlPanelButtons.js",
+          "src/containers/WorkspaceElastic.js",
+          "src/containers/WorkspaceElasticWindow.js",
+          "src/containers/WorkspaceExport.js",
+          "src/containers/WorkspaceImport.js",
+          "src/containers/WorkspaceMenu.js",
+          "src/containers/WorkspaceMenuButton.js",
+          "src/containers/WorkspaceMosaic.js",
+          "src/containers/WorkspaceOptionsButton.js",
+          "src/containers/WorkspaceOptionsMenu.js",
+          "src/containers/WorkspaceSelectionDialog.js",
+          "src/containers/ZoomControls.js"
+        ]
+      },
+      "src/contexts/FailedImageContext.ts": {
+        "lines": 16,
+        "imports": []
+      },
+      "src/contexts/FailedImageProvider.jsx": {
+        "lines": 35,
+        "imports": [
+          "src/config/settings.ts",
+          "src/contexts/FailedImageContext.ts"
+        ]
+      },
+      "src/contexts/FullScreenContext.ts": {
+        "lines": 6,
+        "imports": []
+      },
+      "src/contexts/LocaleContext.ts": {
+        "lines": 6,
+        "imports": []
+      },
+      "src/contexts/OpenSeadragonViewerContext.ts": {
+        "lines": 6,
+        "imports": []
+      },
+      "src/contexts/WorkspaceContext.ts": {
+        "lines": 6,
+        "imports": []
+      },
+      "src/contexts/index.js": {
+        "lines": 5,
+        "imports": [
+          "src/contexts/FullScreenContext.ts",
+          "src/contexts/WorkspaceContext.ts"
+        ]
+      },
+      "src/extend/PluginContext.ts": {
+        "lines": 6,
+        "imports": []
+      },
+      "src/extend/PluginProvider.jsx": {
+        "lines": 23,
+        "imports": [
+          "src/extend/PluginContext.ts",
+          "src/extend/pluginMapping.js"
+        ]
+      },
+      "src/extend/index.js": {
+        "lines": 10,
+        "imports": [
+          "src/extend/PluginContext.ts",
+          "src/extend/PluginProvider.jsx",
+          "src/extend/pluginMapping.js",
+          "src/extend/pluginPreprocessing.js",
+          "src/extend/pluginValidation.ts",
+          "src/extend/withPlugins.jsx"
+        ]
+      },
+      "src/extend/pluginMapping.js": {
+        "lines": 45,
+        "imports": [
+          "src/lib/CompanionWindowRegistry.js"
+        ]
+      },
+      "src/extend/pluginPreprocessing.js": {
+        "lines": 46,
+        "imports": [
+          "src/extend/pluginValidation.ts"
+        ]
+      },
+      "src/extend/pluginValidation.ts": {
+        "lines": 59,
+        "imports": []
+      },
+      "src/extend/usePlugins.js": {
+        "lines": 14,
+        "imports": [
+          "src/extend/PluginContext.ts"
+        ]
+      },
+      "src/extend/withPlugins.jsx": {
+        "lines": 47,
+        "imports": [
+          "src/extend/PluginContext.ts"
+        ]
+      },
+      "src/hooks/index.js": {
+        "lines": 5,
+        "imports": [
+          "src/hooks/useCanvasWorldService.js",
+          "src/hooks/useThumbnailService.js"
+        ]
+      },
+      "src/hooks/useCanvasWorldService.js": {
+        "lines": 11,
+        "imports": [
+          "src/lib/CanvasWorld.js",
+          "src/state/selectors/wrappers.js"
+        ]
+      },
+      "src/hooks/useThumbnailService.js": {
+        "lines": 9,
+        "imports": [
+          "src/state/selectors/thumbnails.js"
+        ]
+      },
+      "src/i18n.ts": {
+        "lines": 72,
+        "imports": []
+      },
+      "src/index.js": {
+        "lines": 19,
+        "imports": [
+          "src/components/index.js",
+          "src/config/index.js",
+          "src/containers/index.js",
+          "src/contexts/index.js",
+          "src/extend/index.js",
+          "src/init.js",
+          "src/lib/index.js",
+          "src/plugins/index.js",
+          "src/state/index.js"
+        ]
+      },
+      "src/init.js": {
+        "lines": 21,
+        "imports": [
+          "src/lib/MiradorViewer.jsx"
+        ]
+      },
+      "src/lib/AnnotationFactory.js": {
+        "lines": 24,
+        "imports": [
+          "src/lib/AnnotationList.js",
+          "src/lib/AnnotationPage.js"
+        ]
+      },
+      "src/lib/AnnotationItem.ts": {
+        "lines": 133,
+        "imports": []
+      },
+      "src/lib/AnnotationList.js": {
+        "lines": 32,
+        "imports": [
+          "src/lib/AnnotationResource.ts"
+        ]
+      },
+      "src/lib/AnnotationPage.js": {
+        "lines": 42,
+        "imports": [
+          "src/lib/AnnotationItem.ts"
+        ]
+      },
+      "src/lib/AnnotationResource.ts": {
+        "lines": 126,
+        "imports": []
+      },
+      "src/lib/CanvasAnnotationDisplay.js": {
+        "lines": 161,
+        "imports": [
+          "src/lib/svgShapesToPath.js"
+        ]
+      },
+      "src/lib/CanvasGroupings.ts": {
+        "lines": 60,
+        "imports": []
+      },
+      "src/lib/CanvasWorld.js": {
+        "lines": 229,
+        "imports": [
+          "src/lib/iiif.js"
+        ]
+      },
+      "src/lib/CompanionWindowRegistry.js": {
+        "lines": 24,
+        "imports": [
+          "src/containers/AttributionPanel.js",
+          "src/containers/CustomPanel.js",
+          "src/containers/LayersPanel.js",
+          "src/containers/SearchPanel.js",
+          "src/containers/ThumbnailNavigation.js",
+          "src/containers/WindowSideBarAnnotationsPanel.js",
+          "src/containers/WindowSideBarCanvasPanel.js",
+          "src/containers/WindowSideBarCollectionPanel.js",
+          "src/containers/WindowSideBarInfoPanel.js"
+        ]
+      },
+      "src/lib/FullScreenHandle.tsx": {
+        "lines": 77,
+        "imports": []
+      },
+      "src/lib/MiradorCanvas.js": {
+        "lines": 212,
+        "imports": [
+          "src/lib/iiif.js"
+        ]
+      },
+      "src/lib/MiradorManifest.ts": {
+        "lines": 47,
+        "imports": []
+      },
+      "src/lib/MiradorViewer.jsx": {
+        "lines": 54,
+        "imports": [
+          "src/components/App.jsx",
+          "src/extend/pluginPreprocessing.js",
+          "src/state/createPluggableStore.js"
+        ]
+      },
+      "src/lib/MosaicLayout.ts": {
+        "lines": 83,
+        "imports": []
+      },
+      "src/lib/OpenSeadragonCanvasOverlay.ts": {
+        "lines": 117,
+        "imports": []
+      },
+      "src/lib/ThumbnailFactory.js": {
+        "lines": 311,
+        "imports": [
+          "src/lib/MiradorCanvas.js",
+          "src/lib/MiradorManifest.ts",
+          "src/lib/asArray.ts"
+        ]
+      },
+      "src/lib/TruncatedHit.ts": {
+        "lines": 40,
+        "imports": []
+      },
+      "src/lib/asArray.ts": {
+        "lines": 12,
+        "imports": []
+      },
+      "src/lib/htmlRules.ts": {
+        "lines": 29,
+        "imports": []
+      },
+      "src/lib/iiif.js": {
+        "lines": 13,
+        "imports": []
+      },
+      "src/lib/index.js": {
+        "lines": 24,
+        "imports": [
+          "src/lib/AnnotationFactory.js",
+          "src/lib/AnnotationItem.ts",
+          "src/lib/AnnotationList.js",
+          "src/lib/AnnotationPage.js",
+          "src/lib/AnnotationResource.ts",
+          "src/lib/CanvasAnnotationDisplay.js",
+          "src/lib/CanvasGroupings.ts",
+          "src/lib/CanvasWorld.js",
+          "src/lib/CompanionWindowRegistry.js",
+          "src/lib/MiradorCanvas.js",
+          "src/lib/MiradorManifest.ts",
+          "src/lib/MiradorViewer.jsx",
+          "src/lib/MosaicLayout.ts",
+          "src/lib/OpenSeadragonCanvasOverlay.ts",
+          "src/lib/ThumbnailFactory.js",
+          "src/lib/TruncatedHit.ts",
+          "src/lib/asArray.ts",
+          "src/lib/htmlRules.ts",
+          "src/lib/readImageMetadata.js"
+        ]
+      },
+      "src/lib/readImageMetadata.js": {
+        "lines": 22,
+        "imports": []
+      },
+      "src/lib/svgShapesToPath.js": {
+        "lines": 50,
+        "imports": []
+      },
+      "src/plugins/OSDReferences.js": {
+        "lines": 16,
+        "imports": []
+      },
+      "src/plugins/index.js": {
+        "lines": 2,
+        "imports": [
+          "src/plugins/OSDReferences.js"
+        ]
+      },
+      "src/state/actions/action-types.js": {
+        "lines": 77,
+        "imports": []
+      },
+      "src/state/actions/annotation.js": {
+        "lines": 124,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/actions/auth.js": {
+        "lines": 110,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/actions/canvas.js": {
+        "lines": 66,
+        "imports": [
+          "src/state/actions/action-types.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/state/actions/catalog.js": {
+        "lines": 23,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/actions/companionWindow.js": {
+        "lines": 108,
+        "imports": [
+          "src/state/actions/action-types.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/state/actions/config.js": {
+        "lines": 50,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/actions/elasticLayout.js": {
+        "lines": 11,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/actions/errors.js": {
+        "lines": 23,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/actions/index.js": {
+        "lines": 20,
+        "imports": [
+          "src/state/actions/action-types.js",
+          "src/state/actions/annotation.js",
+          "src/state/actions/auth.js",
+          "src/state/actions/canvas.js",
+          "src/state/actions/catalog.js",
+          "src/state/actions/companionWindow.js",
+          "src/state/actions/config.js",
+          "src/state/actions/elasticLayout.js",
+          "src/state/actions/errors.js",
+          "src/state/actions/infoResponse.js",
+          "src/state/actions/layers.js",
+          "src/state/actions/manifest.js",
+          "src/state/actions/search.js",
+          "src/state/actions/window.js",
+          "src/state/actions/workspace.js"
+        ]
+      },
+      "src/state/actions/infoResponse.js": {
+        "lines": 91,
+        "imports": [
+          "src/lib/iiif.js",
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/actions/layers.js": {
+        "lines": 15,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/actions/manifest.js": {
+        "lines": 66,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/actions/search.js": {
+        "lines": 98,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/actions/window.js": {
+        "lines": 210,
+        "imports": [
+          "src/state/actions/action-types.js",
+          "src/state/selectors/utils.js"
+        ]
+      },
+      "src/state/actions/workspace.js": {
+        "lines": 85,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/createPluggableStore.js": {
+        "lines": 25,
+        "imports": [
+          "src/extend/pluginPreprocessing.js",
+          "src/state/actions/config.js",
+          "src/state/createStore.js"
+        ]
+      },
+      "src/state/createStore.js": {
+        "lines": 34,
+        "imports": [
+          "src/config/settings.ts",
+          "src/state/reducers/rootReducer.js",
+          "src/state/sagas/index.js"
+        ]
+      },
+      "src/state/index.js": {
+        "lines": 22,
+        "imports": [
+          "src/state/actions/index.js",
+          "src/state/createPluggableStore.js",
+          "src/state/createStore.js",
+          "src/state/reducers/index.js",
+          "src/state/reducers/rootReducer.js",
+          "src/state/sagas/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/state/reducers/accessTokens.js": {
+        "lines": 60,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/reducers/annotations.js": {
+        "lines": 49,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/reducers/auth.js": {
+        "lines": 44,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/reducers/catalog.js": {
+        "lines": 31,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/reducers/companionWindows.js": {
+        "lines": 50,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/reducers/config.js": {
+        "lines": 40,
+        "imports": [
+          "src/config/settings.ts",
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/reducers/elasticLayout.js": {
+        "lines": 30,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/reducers/errors.js": {
+        "lines": 52,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/reducers/index.js": {
+        "lines": 16,
+        "imports": [
+          "src/state/reducers/accessTokens.js",
+          "src/state/reducers/annotations.js",
+          "src/state/reducers/auth.js",
+          "src/state/reducers/catalog.js",
+          "src/state/reducers/companionWindows.js",
+          "src/state/reducers/config.js",
+          "src/state/reducers/elasticLayout.js",
+          "src/state/reducers/errors.js",
+          "src/state/reducers/infoResponses.js",
+          "src/state/reducers/layers.js",
+          "src/state/reducers/manifests.js",
+          "src/state/reducers/search.js",
+          "src/state/reducers/viewers.js",
+          "src/state/reducers/windows.js",
+          "src/state/reducers/workspace.js"
+        ]
+      },
+      "src/state/reducers/infoResponses.js": {
+        "lines": 62,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/reducers/layers.js": {
+        "lines": 24,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/reducers/manifests.js": {
+        "lines": 53,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/reducers/rootReducer.js": {
+        "lines": 45,
+        "imports": [
+          "src/state/reducers/index.js"
+        ]
+      },
+      "src/state/reducers/search.js": {
+        "lines": 146,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/reducers/utils.js": {
+        "lines": 46,
+        "imports": []
+      },
+      "src/state/reducers/viewers.js": {
+        "lines": 43,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/reducers/windows.js": {
+        "lines": 186,
+        "imports": [
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/reducers/workspace.js": {
+        "lines": 112,
+        "imports": [
+          "src/config/settings.ts",
+          "src/state/actions/action-types.js"
+        ]
+      },
+      "src/state/sagas/annotations.js": {
+        "lines": 49,
+        "imports": [
+          "src/lib/MiradorCanvas.js",
+          "src/state/actions/action-types.js",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/state/sagas/app.js": {
+        "lines": 57,
+        "imports": [
+          "src/state/actions/action-types.js",
+          "src/state/actions/index.js",
+          "src/state/sagas/iiif.js",
+          "src/state/sagas/windows.js"
+        ]
+      },
+      "src/state/sagas/auth.js": {
+        "lines": 152,
+        "imports": [
+          "src/state/actions/action-types.js",
+          "src/state/actions/index.js",
+          "src/state/sagas/iiif.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/state/sagas/iiif.js": {
+        "lines": 234,
+        "imports": [
+          "src/state/actions/action-types.js",
+          "src/state/actions/index.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/state/sagas/index.js": {
+        "lines": 31,
+        "imports": [
+          "src/state/sagas/annotations.js",
+          "src/state/sagas/app.js",
+          "src/state/sagas/auth.js",
+          "src/state/sagas/iiif.js",
+          "src/state/sagas/windows.js"
+        ]
+      },
+      "src/state/sagas/windows.js": {
+        "lines": 301,
+        "imports": [
+          "src/lib/iiif.js",
+          "src/state/actions/action-types.js",
+          "src/state/actions/index.js",
+          "src/state/sagas/iiif.js",
+          "src/state/selectors/index.js"
+        ]
+      },
+      "src/state/selectors/annotations.js": {
+        "lines": 139,
+        "imports": [
+          "src/lib/AnnotationFactory.js",
+          "src/state/selectors/canvases.js",
+          "src/state/selectors/config.js",
+          "src/state/selectors/getters.js",
+          "src/state/selectors/utils.js"
+        ]
+      },
+      "src/state/selectors/auth.js": {
+        "lines": 101,
+        "imports": [
+          "src/lib/iiif.js",
+          "src/state/selectors/canvases.js",
+          "src/state/selectors/config.js",
+          "src/state/selectors/utils.js",
+          "src/state/selectors/wrappers.js"
+        ]
+      },
+      "src/state/selectors/canvases.js": {
+        "lines": 261,
+        "imports": [
+          "src/lib/CanvasGroupings.ts",
+          "src/lib/iiif.js",
+          "src/state/selectors/getters.js",
+          "src/state/selectors/manifests.js",
+          "src/state/selectors/sequences.js",
+          "src/state/selectors/utils.js",
+          "src/state/selectors/windows.js",
+          "src/state/selectors/wrappers.js"
+        ]
+      },
+      "src/state/selectors/companionWindows.js": {
+        "lines": 183,
+        "imports": [
+          "src/state/selectors/getters.js",
+          "src/state/selectors/utils.js"
+        ]
+      },
+      "src/state/selectors/config.js": {
+        "lines": 105,
+        "imports": [
+          "src/state/selectors/getters.js",
+          "src/state/selectors/utils.js"
+        ]
+      },
+      "src/state/selectors/getters.js": {
+        "lines": 91,
+        "imports": [
+          "src/state/selectors/utils.js"
+        ]
+      },
+      "src/state/selectors/index.js": {
+        "lines": 18,
+        "imports": [
+          "src/state/selectors/annotations.js",
+          "src/state/selectors/auth.js",
+          "src/state/selectors/canvases.js",
+          "src/state/selectors/companionWindows.js",
+          "src/state/selectors/config.js",
+          "src/state/selectors/getters.js",
+          "src/state/selectors/layers.js",
+          "src/state/selectors/manifests.js",
+          "src/state/selectors/ranges.js",
+          "src/state/selectors/searches.js",
+          "src/state/selectors/sequences.js",
+          "src/state/selectors/thumbnails.js",
+          "src/state/selectors/utils.js",
+          "src/state/selectors/viewer.js",
+          "src/state/selectors/windows.js",
+          "src/state/selectors/workspace.js",
+          "src/state/selectors/wrappers.js"
+        ]
+      },
+      "src/state/selectors/layers.js": {
+        "lines": 80,
+        "imports": [
+          "src/state/selectors/canvases.js",
+          "src/state/selectors/utils.js",
+          "src/state/selectors/wrappers.js"
+        ]
+      },
+      "src/state/selectors/manifests.js": {
+        "lines": 428,
+        "imports": [
+          "src/lib/asArray.ts",
+          "src/state/selectors/companionWindows.js",
+          "src/state/selectors/config.js",
+          "src/state/selectors/getters.js",
+          "src/state/selectors/thumbnails.js"
+        ]
+      },
+      "src/state/selectors/ranges.js": {
+        "lines": 148,
+        "imports": [
+          "src/state/selectors/canvases.js",
+          "src/state/selectors/companionWindows.js",
+          "src/state/selectors/sequences.js"
+        ]
+      },
+      "src/state/selectors/searches.js": {
+        "lines": 250,
+        "imports": [
+          "src/lib/AnnotationList.js",
+          "src/state/selectors/canvases.js",
+          "src/state/selectors/getters.js",
+          "src/state/selectors/manifests.js",
+          "src/state/selectors/utils.js"
+        ]
+      },
+      "src/state/selectors/sequences.js": {
+        "lines": 164,
+        "imports": [
+          "src/state/selectors/getters.js",
+          "src/state/selectors/manifests.js"
+        ]
+      },
+      "src/state/selectors/thumbnails.js": {
+        "lines": 29,
+        "imports": [
+          "src/lib/ThumbnailFactory.js",
+          "src/state/selectors/config.js",
+          "src/state/selectors/wrappers.js"
+        ]
+      },
+      "src/state/selectors/utils.js": {
+        "lines": 19,
+        "imports": [
+          "src/config/settings.ts"
+        ]
+      },
+      "src/state/selectors/viewer.js": {
+        "lines": 20,
+        "imports": [
+          "src/lib/CanvasWorld.js",
+          "src/state/selectors/canvases.js",
+          "src/state/selectors/layers.js",
+          "src/state/selectors/sequences.js",
+          "src/state/selectors/wrappers.js"
+        ]
+      },
+      "src/state/selectors/windows.js": {
+        "lines": 99,
+        "imports": [
+          "src/state/selectors/config.js",
+          "src/state/selectors/getters.js",
+          "src/state/selectors/manifests.js",
+          "src/state/selectors/sequences.js",
+          "src/state/selectors/workspace.js"
+        ]
+      },
+      "src/state/selectors/workspace.js": {
+        "lines": 53,
+        "imports": [
+          "src/state/selectors/getters.js",
+          "src/state/selectors/utils.js"
+        ]
+      },
+      "src/state/selectors/wrappers.js": {
+        "lines": 16,
+        "imports": [
+          "src/lib/MiradorCanvas.js",
+          "src/lib/MiradorManifest.ts"
+        ]
+      },
+      "src/styles/react-mosaic-component.js": {
+        "lines": 289,
+        "imports": []
+      }
+    },
+    "stats": {
+      "files": 329,
+      "jsFiles": 281,
+      "tsFiles": 48,
+      "edges": 1038,
+      "layers": 42,
+      "cycleFiles": 0
+    }
+  },
+  "ratchet": {
+    "js": [
+      329,
+      317,
+      305,
+      293,
+      281
+    ],
+    "any": [
+      0,
+      7,
+      9,
+      27,
+      29
+    ]
+  },
+  "batches": [
+    {
+      "id": "b01",
+      "layer": 0,
+      "files": [
+        "src/components/AudioViewer.jsx",
+        "src/components/CollapsibleSection.jsx",
+        "src/components/CompanionWindowSection.jsx",
+        "src/components/ErrorDialog.jsx",
+        "src/components/IIIFIFrameCommunication.jsx",
+        "src/components/LanguageSettings.jsx",
+        "src/components/ManifestForm.jsx",
+        "src/components/ManifestListItemError.jsx",
+        "src/components/NestedMenu.jsx",
+        "src/components/NewBrowserWindow.jsx",
+        "src/components/ScrollIndicatedDialogContent.jsx",
+        "src/components/SelectCollection.jsx"
+      ],
+      "status": "done",
+      "startedAt": "2026-09-26T19:49:25.607Z",
+      "attempts": 1,
+      "checks": {
+        "typecheck": {
+          "ok": true,
+          "errors": 0
+        },
+        "tests": {
+          "ok": true,
+          "passed": 30,
+          "failed": 0
+        }
+      },
+      "finishedAt": "2026-09-26T19:56:01.076Z",
+      "durationSec": 395,
+      "semantic": [
+        {
+          "file": "src/components/AudioViewer.tsx",
+          "kind": "interface",
+          "symbol": "AudioViewerProps"
+        },
+        {
+          "file": "src/components/AudioViewer.tsx",
+          "kind": "optional",
+          "symbol": "AudioViewerProps.audioOptions"
+        },
+        {
+          "file": "src/components/AudioViewer.tsx",
+          "kind": "any",
+          "symbol": "AudioViewerProps.audioOptions",
+          "note": "Record<string, any> \u2014 unknown spread props"
+        },
+        {
+          "file": "src/components/AudioViewer.tsx",
+          "kind": "optional",
+          "symbol": "AudioViewerProps.audioResources"
+        },
+        {
+          "file": "src/components/AudioViewer.tsx",
+          "kind": "any",
+          "symbol": "AudioViewerProps.audioResources",
+          "note": "any[] \u2014 IIIF objects, shape not known here"
+        },
+        {
+          "file": "src/components/AudioViewer.tsx",
+          "kind": "optional",
+          "symbol": "AudioViewerProps.captions"
+        },
+        {
+          "file": "src/components/AudioViewer.tsx",
+          "kind": "any",
+          "symbol": "AudioViewerProps.captions",
+          "note": "any[] \u2014 IIIF objects, shape not known here"
+        },
+        {
+          "file": "src/components/CollapsibleSection.tsx",
+          "kind": "interface",
+          "symbol": "CollapsibleSectionProps"
+        },
+        {
+          "file": "src/components/CollapsibleSection.tsx",
+          "kind": "other",
+          "symbol": "handleChange._event",
+          "note": "React.SyntheticEvent"
+        },
+        {
+          "file": "src/components/CollapsibleSection.tsx",
+          "kind": "other",
+          "symbol": "handleChange.isExpanded",
+          "note": "boolean"
+        },
+        {
+          "file": "src/components/CollapsibleSection.tsx",
+          "kind": "cast",
+          "symbol": "variant",
+          "note": "\"compact\" as any \u2014 pre-existing custom theme variant not in MUI types"
+        },
+        {
+          "file": "src/components/ErrorDialog.tsx",
+          "kind": "interface",
+          "symbol": "ErrorShape"
+        },
+        {
+          "file": "src/components/ErrorDialog.tsx",
+          "kind": "optional",
+          "symbol": "ErrorShape.id"
+        },
+        {
+          "file": "src/components/ErrorDialog.tsx",
+          "kind": "optional",
+          "symbol": "ErrorShape.message"
+        },
+        {
+          "file": "src/components/ErrorDialog.tsx",
+          "kind": "interface",
+          "symbol": "ErrorDialogProps"
+        },
+        {
+          "file": "src/components/ErrorDialog.tsx",
+          "kind": "nullable",
+          "symbol": "ErrorDialogProps.error",
+          "note": "ErrorShape | null"
+        },
+        {
+          "file": "src/components/ErrorDialog.tsx",
+          "kind": "optional",
+          "symbol": "ErrorDialogProps.removeError"
+        },
+        {
+          "file": "src/components/IIIFIFrameCommunication.tsx",
+          "kind": "cast",
+          "symbol": "style.visibility",
+          "note": "'hidden' as const \u2014 prevents widening to string for CSSProperties"
+        },
+        {
+          "file": "src/components/IIIFIFrameCommunication.tsx",
+          "kind": "interface",
+          "symbol": "IIIFIFrameCommunicationProps"
+        },
+        {
+          "file": "src/components/IIIFIFrameCommunication.tsx",
+          "kind": "nullable",
+          "symbol": "handleReceiveMessage",
+          "note": "((event: MessageEvent) => void) | undefined"
+        },
+        {
+          "file": "src/components/LanguageSettings.tsx",
+          "kind": "interface",
+          "symbol": "Language"
+        },
+        {
+          "file": "src/components/LanguageSettings.tsx",
+          "kind": "interface",
+          "symbol": "LanguageSettingsProps"
+        },
+        {
+          "file": "src/components/LanguageSettings.tsx",
+          "kind": "other",
+          "symbol": "handleClick",
+          "note": "(locale: string) => void"
+        },
+        {
+          "file": "src/components/ManifestForm.tsx",
+          "kind": "interface",
+          "symbol": "ManifestFormProps"
+        },
+        {
+          "file": "src/components/ManifestForm.tsx",
+          "kind": "nullable",
+          "symbol": "ManifestFormProps.onCancel",
+          "note": "(() => void) | null"
+        },
+        {
+          "file": "src/components/ManifestForm.tsx",
+          "kind": "optional",
+          "symbol": "ManifestFormProps.onSubmit"
+        },
+        {
+          "file": "src/components/ManifestForm.tsx",
+          "kind": "other",
+          "symbol": "handleInputChange.event",
+          "note": "React.ChangeEvent<HTMLInputElement>"
+        },
+        {
+          "file": "src/components/ManifestForm.tsx",
+          "kind": "other",
+          "symbol": "formSubmit.event",
+          "note": "React.FormEvent<HTMLFormElement>"
+        },
+        {
+          "file": "src/components/ManifestForm.tsx",
+          "kind": "cast",
+          "symbol": "slotProps",
+          "note": "as any \u2014 MUI v6 slot key mismatch on existing JSX"
+        },
+        {
+          "file": "src/components/ManifestListItemError.tsx",
+          "kind": "interface",
+          "symbol": "ManifestListItemErrorProps"
+        },
+        {
+          "file": "src/components/NestedMenu.tsx",
+          "kind": "interface",
+          "symbol": "NestedMenuProps"
+        },
+        {
+          "file": "src/components/NestedMenu.tsx",
+          "kind": "nullable",
+          "symbol": "NestedMenuProps.icon",
+          "note": "React.ReactElement | null"
+        },
+        {
+          "file": "src/components/NestedMenu.tsx",
+          "kind": "any",
+          "symbol": "NestedMenuProps[key: string]",
+          "note": "index signature for ...otherProps spread onto MenuItem"
+        },
+        {
+          "file": "src/components/NewBrowserWindow.tsx",
+          "kind": "interface",
+          "symbol": "NewBrowserWindowProps"
+        },
+        {
+          "file": "src/components/NewBrowserWindow.tsx",
+          "kind": "nullable",
+          "symbol": "NewBrowserWindowProps.depWindow",
+          "note": "Window | undefined"
+        },
+        {
+          "file": "src/components/NewBrowserWindow.tsx",
+          "kind": "nullable",
+          "symbol": "NewBrowserWindowProps.features",
+          "note": "string | undefined"
+        },
+        {
+          "file": "src/components/NewBrowserWindow.tsx",
+          "kind": "nullable",
+          "symbol": "NewBrowserWindowProps.name",
+          "note": "string | undefined"
+        },
+        {
+          "file": "src/components/ScrollIndicatedDialogContent.tsx",
+          "kind": "other",
+          "symbol": "getOverlayAlpha.elevation",
+          "note": "elevation: number"
+        },
+        {
+          "file": "src/components/ScrollIndicatedDialogContent.tsx",
+          "kind": "optional",
+          "symbol": "ownerState",
+          "note": "ownerState?: { elevation?: number } in styled callback"
+        },
+        {
+          "file": "src/components/ScrollIndicatedDialogContent.tsx",
+          "kind": "optional",
+          "symbol": "ownerState.elevation"
+        },
+        {
+          "file": "src/components/ScrollIndicatedDialogContent.tsx",
+          "kind": "any",
+          "symbol": "theme in styled callback",
+          "note": "MUI theme internals"
+        },
+        {
+          "file": "src/components/ScrollIndicatedDialogContent.tsx",
+          "kind": "cast",
+          "symbol": "getOverlayAlpha() result",
+          "note": "as unknown as number \u2014 .toFixed() returns string; alpha() needs number"
+        },
+        {
+          "file": "src/components/ScrollIndicatedDialogContent.tsx",
+          "kind": "interface",
+          "symbol": "ScrollIndicatedDialogContentProps"
+        },
+        {
+          "file": "src/components/ScrollIndicatedDialogContent.tsx",
+          "kind": "optional",
+          "symbol": "ScrollIndicatedDialogContentProps.classes"
+        },
+        {
+          "file": "src/components/ScrollIndicatedDialogContent.tsx",
+          "kind": "optional",
+          "symbol": "ScrollIndicatedDialogContentProps.className"
+        },
+        {
+          "file": "src/components/ScrollIndicatedDialogContent.tsx",
+          "kind": "any",
+          "symbol": "ScrollIndicatedDialogContentProps[key: string]",
+          "note": "index signature for ...otherProps"
+        },
+        {
+          "file": "src/components/SelectCollection.tsx",
+          "kind": "interface",
+          "symbol": "SelectCollectionProps"
+        },
+        {
+          "file": "src/components/SelectCollection.tsx",
+          "kind": "optional",
+          "symbol": "SelectCollectionProps.collectionPath"
+        },
+        {
+          "file": "src/components/SelectCollection.tsx",
+          "kind": "nullable",
+          "symbol": "SelectCollectionProps.manifestId",
+          "note": "string | null"
+        },
+        {
+          "file": "src/components/SelectCollection.tsx",
+          "kind": "nullable",
+          "symbol": "SelectCollectionProps.windowId",
+          "note": "string | null"
+        }
+      ],
+      "ratchet": {
+        "js": 317,
+        "any": 7
+      },
+      "notes": "Bob session not exported \u2014 the task was deleted before export. Work is in git commit \"batch 1\"."
+    },
+    {
+      "id": "b02",
+      "layer": 0,
+      "files": [
+        "src/components/SidebarIndexItem.jsx",
+        "src/components/VideoViewer.jsx",
+        "src/components/WindowTopBarTitle.jsx",
+        "src/components/WorkspaceAddButton.jsx",
+        "src/components/WorkspaceDialog.jsx",
+        "src/components/icons/BookViewIcon.jsx",
+        "src/components/icons/CanvasIndexIcon.jsx",
+        "src/components/icons/GalleryViewIcon.jsx",
+        "src/components/icons/MiradorIcon.jsx",
+        "src/components/icons/RestoreZoomIcon.jsx",
+        "src/components/icons/ThumbnailNavigationBottomIcon.jsx",
+        "src/components/icons/ThumbnailNavigationRightIcon.jsx"
+      ],
+      "status": "done",
+      "startedAt": "2026-09-26T20:09:21.190Z",
+      "attempts": 1,
+      "checks": {
+        "typecheck": {
+          "ok": true,
+          "errors": 0
+        },
+        "tests": {
+          "ok": true,
+          "passed": 11,
+          "failed": 0
+        }
+      },
+      "finishedAt": "2026-09-26T20:18:56.995Z",
+      "durationSec": 576,
+      "semantic": [
+        {
+          "file": "src/components/SidebarIndexItem.tsx",
+          "kind": "interface",
+          "symbol": "SidebarIndexItemProps",
+          "note": "label: string (required)"
+        },
+        {
+          "file": "src/components/VideoViewer.tsx",
+          "kind": "interface",
+          "symbol": "VideoViewerProps",
+          "note": "captions?: any[], videoResources?: any[], videoOptions?: React.VideoHTMLAttributes<HTMLVideoElement>"
+        },
+        {
+          "file": "src/components/VideoViewer.tsx",
+          "kind": "any",
+          "symbol": "VideoViewerProps.captions",
+          "note": "any[] \u2014 IIIF resource shape unknown"
+        },
+        {
+          "file": "src/components/VideoViewer.tsx",
+          "kind": "any",
+          "symbol": "VideoViewerProps.videoResources",
+          "note": "any[] \u2014 IIIF resource shape unknown"
+        },
+        {
+          "file": "src/components/WindowTopBarTitle.tsx",
+          "kind": "interface",
+          "symbol": "TitleTypographyProps",
+          "note": "extends TypographyProps; children: React.ReactNode, sx?: TypographyProps['sx']"
+        },
+        {
+          "file": "src/components/WindowTopBarTitle.tsx",
+          "kind": "interface",
+          "symbol": "WindowTopBarTitleProps",
+          "note": "error?: string | null, hideWindowTitle?: boolean, isFetching?: boolean, manifestTitle?: string"
+        },
+        {
+          "file": "src/components/WindowTopBarTitle.tsx",
+          "kind": "nullable",
+          "symbol": "error",
+          "note": "string | null \u2014 default in source was null"
+        },
+        {
+          "file": "src/components/WorkspaceAddButton.tsx",
+          "kind": "cast",
+          "symbol": "useWidth reduce seed",
+          "note": "null as string | null \u2014 enables correct return-type inference"
+        },
+        {
+          "file": "src/components/WorkspaceAddButton.tsx",
+          "kind": "interface",
+          "symbol": "WorkspaceAddButtonProps",
+          "note": "setWorkspaceAddVisibility: (visible: boolean) => void, isWorkspaceAddVisible?: boolean, useExtendedFab: boolean"
+        },
+        {
+          "file": "src/components/WorkspaceDialog.tsx",
+          "kind": "interface",
+          "symbol": "WorkspaceDialogProps",
+          "note": "variant?: 'menu' | string"
+        },
+        {
+          "file": "src/components/icons/BookViewIcon.tsx",
+          "kind": "type",
+          "symbol": "props",
+          "note": "SvgIconProps"
+        },
+        {
+          "file": "src/components/icons/CanvasIndexIcon.tsx",
+          "kind": "type",
+          "symbol": "props",
+          "note": "SvgIconProps"
+        },
+        {
+          "file": "src/components/icons/GalleryViewIcon.tsx",
+          "kind": "type",
+          "symbol": "props",
+          "note": "SvgIconProps"
+        },
+        {
+          "file": "src/components/icons/MiradorIcon.tsx",
+          "kind": "type",
+          "symbol": "props",
+          "note": "SvgIconProps"
+        },
+        {
+          "file": "src/components/icons/RestoreZoomIcon.tsx",
+          "kind": "type",
+          "symbol": "props",
+          "note": "SvgIconProps"
+        },
+        {
+          "file": "src/components/icons/ThumbnailNavigationBottomIcon.tsx",
+          "kind": "type",
+          "symbol": "props",
+          "note": "SvgIconProps"
+        },
+        {
+          "file": "src/components/icons/ThumbnailNavigationRightIcon.tsx",
+          "kind": "type",
+          "symbol": "props",
+          "note": "SvgIconProps"
+        }
+      ],
+      "session": "bob_sessions/b02.json",
+      "ratchet": {
+        "js": 305,
+        "any": 9
+      }
+    },
+    {
+      "id": "b03",
+      "layer": 0,
+      "files": [
+        "src/components/icons/WindowMaxIcon.jsx",
+        "src/components/icons/WindowMinIcon.jsx",
+        "src/components/icons/WindowOptionsIcon.jsx",
+        "src/components/icons/WorkspaceTypeElasticIcon.jsx",
+        "src/components/icons/WorkspaceTypeMosaicIcon.jsx",
+        "src/config/settings.js",
+        "src/contexts/FailedImageContext.js",
+        "src/contexts/FullScreenContext.js",
+        "src/contexts/LocaleContext.js",
+        "src/contexts/OpenSeadragonViewerContext.js",
+        "src/contexts/WorkspaceContext.js",
+        "src/extend/PluginContext.js"
+      ],
+      "status": "rolled_back",
+      "startedAt": "2026-09-26T20:25:55.272Z",
+      "attempts": 2,
+      "checks": {
+        "typecheck": {
+          "ok": true,
+          "errors": 0
+        },
+        "tests": {
+          "ok": true,
+          "passed": 1255,
+          "failed": 0
+        }
+      },
+      "finishedAt": "2026-09-26T20:32:02.840Z",
+      "durationSec": 368,
+      "notes": "A/B run: same Bob in plain Agent mode, no Migrator mode, no contract. Full suite green (1255 tests), typecheck green \u2014 still rejected at gate 2: it refactored while converting and touched files outside the batch. Rolled back.",
+      "ratchet": {
+        "js": 293,
+        "any": 9
+      },
+      "semantic": [
+        {
+          "file": "src/components/icons/*.jsx",
+          "kind": "other",
+          "symbol": "refactors while converting",
+          "note": "cleanups and reorders beyond type annotations \u2014 behavior not provably unchanged"
+        },
+        {
+          "file": "src/lib/AnnotationItem.js",
+          "kind": "other",
+          "symbol": "file outside the batch converted",
+          "note": "left as a broken .ts with undeclared class fields"
+        }
+      ]
+    },
+    {
+      "id": "b04",
+      "layer": 0,
+      "files": [
+        "src/extend/pluginValidation.js",
+        "src/i18n.js",
+        "src/lib/AnnotationItem.js",
+        "src/lib/AnnotationResource.js",
+        "src/lib/CanvasGroupings.js",
+        "src/lib/FullScreenHandle.jsx",
+        "src/lib/MiradorManifest.js",
+        "src/lib/MosaicLayout.js",
+        "src/lib/OpenSeadragonCanvasOverlay.js",
+        "src/lib/TruncatedHit.js",
+        "src/lib/asArray.js",
+        "src/lib/htmlRules.js"
+      ],
+      "status": "done",
+      "startedAt": "2026-09-26T20:38:03.873Z",
+      "attempts": 1,
+      "checks": {
+        "typecheck": {
+          "ok": true,
+          "errors": 0
+        },
+        "tests": {
+          "ok": true,
+          "passed": 117,
+          "failed": 0
+        }
+      },
+      "semantic": [
+        {
+          "file": "src/lib/AnnotationItem.ts",
+          "kind": "any",
+          "symbol": "resource",
+          "note": "Field \u2014 raw WebAnnotation object, shape unknown at compile time"
+        },
+        {
+          "file": "src/lib/AnnotationItem.ts",
+          "kind": "any",
+          "symbol": "constructor(resource)",
+          "note": "Constructor param"
+        },
+        {
+          "file": "src/lib/AnnotationItem.ts",
+          "kind": "nullable",
+          "symbol": "_id",
+          "note": "string | undefined \u2014 lazy-initialized id, undefined until first get id access"
+        },
+        {
+          "file": "src/lib/AnnotationResource.ts",
+          "kind": "any",
+          "symbol": "resource",
+          "note": "Field \u2014 raw IIIF annotation object"
+        },
+        {
+          "file": "src/lib/AnnotationResource.ts",
+          "kind": "any",
+          "symbol": "constructor(resource)",
+          "note": "Constructor param"
+        },
+        {
+          "file": "src/lib/AnnotationResource.ts",
+          "kind": "nullable",
+          "symbol": "_id",
+          "note": "string | undefined \u2014 lazy-initialized id"
+        },
+        {
+          "file": "src/lib/CanvasGroupings.ts",
+          "kind": "any",
+          "symbol": "canvases",
+          "note": "Field \u2014 IIIF canvas objects, shape from external manifesto lib"
+        },
+        {
+          "file": "src/lib/CanvasGroupings.ts",
+          "kind": "nullable",
+          "symbol": "_groupings",
+          "note": "any[][] | null \u2014 memoized groupings, null before first groupings() call"
+        },
+        {
+          "file": "src/lib/MiradorManifest.ts",
+          "kind": "any",
+          "symbol": "manifest",
+          "note": "Field \u2014 manifesto Manifest instance, no @types package"
+        },
+        {
+          "file": "src/lib/MiradorManifest.ts",
+          "kind": "any",
+          "symbol": "constructor(manifest)",
+          "note": "Constructor param"
+        },
+        {
+          "file": "src/lib/MosaicLayout.ts",
+          "kind": "type",
+          "symbol": "MosaicKey",
+          "note": "Local type alias string | number \u2014 MosaicKey not exported from react-mosaic-component"
+        },
+        {
+          "file": "src/lib/MosaicLayout.ts",
+          "kind": "nullable",
+          "symbol": "layout",
+          "note": "MosaicNode<MosaicKey> | null \u2014 null is a valid empty layout in react-mosaic"
+        },
+        {
+          "file": "src/lib/MosaicLayout.ts",
+          "kind": "cast",
+          "symbol": "(parent as any).direction",
+          "note": "parent is MosaicNode which can be string leaf; at runtime parent on a non-leaf path is always a split node"
+        },
+        {
+          "file": "src/lib/MosaicLayout.ts",
+          "kind": "other",
+          "symbol": "type: 'split' as const",
+          "note": "Narrows string to literal 'split' to satisfy MosaicSplitNode"
+        },
+        {
+          "file": "src/lib/OpenSeadragonCanvasOverlay.ts",
+          "kind": "any",
+          "symbol": "viewer",
+          "note": "OSD Viewer \u2014 no @types/openseadragon package"
+        },
+        {
+          "file": "src/lib/OpenSeadragonCanvasOverlay.ts",
+          "kind": "any",
+          "symbol": "ref",
+          "note": "React ref passed in, typed any to avoid React import dependency"
+        },
+        {
+          "file": "src/lib/OpenSeadragonCanvasOverlay.ts",
+          "kind": "nullable",
+          "symbol": "viewportWidth",
+          "note": "number | undefined \u2014 set in resize(), not in constructor"
+        },
+        {
+          "file": "src/lib/OpenSeadragonCanvasOverlay.ts",
+          "kind": "nullable",
+          "symbol": "viewportHeight",
+          "note": "number | undefined \u2014 set in resize(), not in constructor"
+        },
+        {
+          "file": "src/lib/OpenSeadragonCanvasOverlay.ts",
+          "kind": "nullable",
+          "symbol": "clearBeforeRedraw",
+          "note": "boolean | undefined \u2014 optional flag read in canvasUpdate(), never set in constructor"
+        },
+        {
+          "file": "src/lib/TruncatedHit.ts",
+          "kind": "any",
+          "symbol": "hit",
+          "note": "Search hit from external IIIF search API"
+        },
+        {
+          "file": "src/lib/TruncatedHit.ts",
+          "kind": "any",
+          "symbol": "annotation",
+          "note": "Optional annotation object"
+        },
+        {
+          "file": "src/lib/TruncatedHit.ts",
+          "kind": "any",
+          "symbol": "constructor(hit, annotation)",
+          "note": "Constructor params"
+        }
+      ],
+      "notes": "Recorded once prematurely with 3 typecheck errors (class fields used without declarations in AnnotationItem). Fixed with types only \u2014 field declarations \u2014 and re-checked green before ratchet commit.",
+      "ratchet": {
+        "js": 293,
+        "any": 27
+      },
+      "finishedAt": "2026-09-26T20:52:45.674Z",
+      "durationSec": 882,
+      "session": "bob_sessions/b04.json"
+    },
+    {
+      "id": "b05",
+      "layer": 0,
+      "files": [
+        "src/components/icons/WindowMaxIcon.jsx",
+        "src/components/icons/WindowMinIcon.jsx",
+        "src/components/icons/WindowOptionsIcon.jsx",
+        "src/components/icons/WorkspaceTypeElasticIcon.jsx",
+        "src/components/icons/WorkspaceTypeMosaicIcon.jsx",
+        "src/config/settings.js",
+        "src/contexts/FailedImageContext.js",
+        "src/contexts/FullScreenContext.js",
+        "src/contexts/LocaleContext.js",
+        "src/contexts/OpenSeadragonViewerContext.js",
+        "src/contexts/WorkspaceContext.js",
+        "src/extend/PluginContext.js"
+      ],
+      "status": "done",
+      "startedAt": "2026-09-26T20:54:07.575Z",
+      "attempts": 1,
+      "checks": {
+        "typecheck": {
+          "ok": true,
+          "errors": 0
+        },
+        "tests": {
+          "ok": true,
+          "passed": 1255,
+          "failed": 0
+        }
+      },
+      "finishedAt": "2026-09-26T21:01:39.954Z",
+      "durationSec": 452,
+      "semantic": [
+        {
+          "file": "src/components/icons/WindowMaxIcon.tsx",
+          "kind": "interface",
+          "symbol": "props",
+          "note": "Typed as SvgIconProps (MUI imported interface)"
+        },
+        {
+          "file": "src/components/icons/WindowMinIcon.tsx",
+          "kind": "interface",
+          "symbol": "props",
+          "note": "Typed as SvgIconProps (MUI imported interface)"
+        },
+        {
+          "file": "src/components/icons/WindowOptionsIcon.tsx",
+          "kind": "interface",
+          "symbol": "props",
+          "note": "Typed as SvgIconProps (MUI imported interface)"
+        },
+        {
+          "file": "src/components/icons/WorkspaceTypeElasticIcon.tsx",
+          "kind": "interface",
+          "symbol": "props",
+          "note": "Typed as SvgIconProps (MUI imported interface)"
+        },
+        {
+          "file": "src/components/icons/WorkspaceTypeMosaicIcon.tsx",
+          "kind": "interface",
+          "symbol": "props",
+          "note": "Typed as SvgIconProps (MUI imported interface)"
+        },
+        {
+          "file": "src/contexts/FailedImageContext.ts",
+          "kind": "interface",
+          "symbol": "FailedImageContextValue",
+          "note": "New interface for context value shape"
+        },
+        {
+          "file": "src/contexts/FailedImageContext.ts",
+          "kind": "optional",
+          "symbol": "FailedImageContextValue.failedImages",
+          "note": "Set<string> | undefined"
+        },
+        {
+          "file": "src/contexts/FailedImageContext.ts",
+          "kind": "optional",
+          "symbol": "FailedImageContextValue.hasFailed",
+          "note": "optional boolean"
+        },
+        {
+          "file": "src/contexts/FailedImageContext.ts",
+          "kind": "optional",
+          "symbol": "FailedImageContextValue.notifyFailure imageId param",
+          "note": "string | undefined"
+        },
+        {
+          "file": "src/contexts/FullScreenContext.ts",
+          "kind": "any",
+          "symbol": "createContext<any>",
+          "note": "react-full-screen handle type unknown without its typings"
+        },
+        {
+          "file": "src/contexts/LocaleContext.ts",
+          "kind": "nullable",
+          "symbol": "createContext<string | undefined>",
+          "note": "no-arg createContext implies undefined default"
+        },
+        {
+          "file": "src/contexts/OpenSeadragonViewerContext.ts",
+          "kind": "nullable",
+          "symbol": "createContext<RefObject<any> | undefined>",
+          "note": "default is undefined; provider passes a useRef"
+        },
+        {
+          "file": "src/contexts/OpenSeadragonViewerContext.ts",
+          "kind": "any",
+          "symbol": "RefObject<any>",
+          "note": "OSD viewer type not locally typed"
+        },
+        {
+          "file": "src/contexts/WorkspaceContext.ts",
+          "kind": "nullable",
+          "symbol": "RefObject<HTMLElement | null>",
+          "note": "React RefObject .current type"
+        },
+        {
+          "file": "src/extend/PluginContext.ts",
+          "kind": "nullable",
+          "symbol": "createContext<Record<string, any> | undefined>",
+          "note": "no-arg createContext implies undefined default"
+        },
+        {
+          "file": "src/extend/PluginContext.ts",
+          "kind": "any",
+          "symbol": "Record<string, any>",
+          "note": "plugin map values are variably-shaped"
+        }
+      ],
+      "session": "bob_sessions/b05.json",
+      "ratchet": {
+        "js": 281,
+        "any": 29
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "ratchet",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Ratchet — safe, incremental, rollback-able JS→TS migration workflow on IBM Bob 2.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w packages/mcp",
+    "ratchet": "node packages/mcp/dist/cli.js",
+    "mcp": "node packages/mcp/dist/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}

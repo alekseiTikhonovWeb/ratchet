@@ -1,0 +1,31 @@
+# Copy to .github/workflows/ratchet.yml in the demo repo fork.
+name: ratchet
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  ratchet:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - run: npm ci
+
+      - name: Tests
+        run: npm test -- --watchAll=false
+        env:
+          CI: true
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Ratchet (debt can only go down)
+        run: bash ci/ratchet.sh --check
