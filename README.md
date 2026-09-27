@@ -4,7 +4,7 @@ Safe, incremental, rollback-able JavaScript → TypeScript migration, run by IBM
 
 Built for the [IBM Bob 2.0 Hackathon](https://lablab.ai/ai-hackathons/ibm-bob-2-hackathon), September 25–27, 2026.
 
-Dashboard: _[Vercel URL]_ · Video: _[URL]_ · Demo repo: [alekseiTikhonovWeb/mirador](https://github.com/alekseiTikhonovWeb/mirador) · Report: [`demo/report.html`](demo/report.html)
+Dashboard: https://ratchetjs.vercel.app · Video: https://youtu.be/vm6SY6j7_tE · Demo repo: [alekseiTikhonovWeb/mirador](https://github.com/alekseiTikhonovWeb/mirador) · Report: [`demo/report.html`](demo/report.html)
 
 ## Overview
 

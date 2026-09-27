@@ -2,5 +2,3 @@
 
 One exported Bob session per batch: `b01.json`, `b02.json`, … plus `00-scaffold.json` for the initial
 repo scaffold and `dashboard-*.json` for dashboard components generated with Bob.
-
-How to export (Улан fills this in after checking in Bob 2.0.2): _where the button is, what file it produces_.
