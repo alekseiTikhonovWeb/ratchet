@@ -92,8 +92,7 @@ ratchet/
 │   └── demo-repo/      [tsconfig.json + GitHub Actions workflow for the repo being migrated]
 ├── demo/               [run.json + report.html from the Mirador run]
 ├── bob_sessions/       [exported Bob sessions, one per batch]
-├── docs/               [demo repo notes, roadmap, team task cards]
-└── pitch/              [description, voiceover, slides brief]
+└── docs/               [demo repo notes, roadmap]
 ```
 
 ## Local Development
